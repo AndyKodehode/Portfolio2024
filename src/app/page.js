@@ -2,7 +2,12 @@ import Image from "next/image";
 import { NavBar } from "../../components/navigation/navbar";
 import { ProjectSectionOne, ProjectSectionTwo, ProjectSectionThree } from "../../components/home/projectsSection";
 import { BidragsKort } from "../../components/home/bidragKort";
+import chrome from "../../public/chrome.svg"
+import usersRound from "../../public/usersRound.svg"
+import UIikon from "../../public/UIikon.svg"
 import MegCrop5 from "../../public/MegCrop5.jpg"
+import MobileIcon from "../../public/MobileIcon.svg"
+import kodeIkon from "../../public/kodeIkon.svg"
 import "./globals.css";
 
 export default function Home() {
@@ -71,16 +76,16 @@ export default function Home() {
 
 
             <div className="flex flex-col justify-center gap-10">
-                <div className="flex flex-col items-center w-full">
+                <div className="flex flex-col items-center w-full gap-2">
                   <h1>Hva kan jeg bidra med?</h1>
                   <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
                 <div className="flex flex-wrap gap-20 justify-center">
-                  <BidragsKort/>
-                  <BidragsKort/>
-                  <BidragsKort/>
-                  <BidragsKort/>
-                  <BidragsKort/>
+                  <BidragsKort bilde={UIikon} tittel="Ui Design"/>
+                  <BidragsKort bilde={usersRound} tittel="Prosjektledelse"/>
+                  <BidragsKort bilde={MobileIcon} tittel="Mobil utvikling"/>
+                  <BidragsKort bilde={kodeIkon} tittel="Junior utvikling"/>
+                  <BidragsKort bilde={chrome} tittel="logo og illustrasjoner"/>
                 </div>
             </div>
 
