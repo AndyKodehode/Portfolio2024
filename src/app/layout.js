@@ -11,7 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body >
+        
+      <div className="flex-1 overflow-x-hidden">{children}</div>
+      
+      </body>
     </html>
   );
 }
