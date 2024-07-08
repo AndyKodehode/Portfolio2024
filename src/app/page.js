@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { NavBar } from "../../components/navigation/navbar";
-import { ProjectSection } from "../../components/home/projectsSection";
+import { ProjectSectionOne, ProjectSectionTwo, ProjectSectionThree } from "../../components/home/projectsSection";
 import { BidragsKort } from "../../components/home/bidragKort";
+import MegCrop5 from "../../public/MegCrop5.jpg"
 import "./globals.css";
 
 export default function Home() {
@@ -10,24 +11,41 @@ export default function Home() {
           <NavBar/>
           
           
-          <div className="flex flex-col w-screen sm:w-11/12 gap-40">
+          <div className="flex flex-col items-center justify-center lg:w-10/12 w-screen sm:w-11/12 gap-40 pt-20">
 
-            <div className="flex flex-row w-full h-40 gap-10">
-              <div className="w-full bg-slate-600">
-              <h1>Dette er header</h1>
+            <div className="flex flex-row w-full  gap-10">
+              <div className="w-full lg:w-10/12  flex flex-col gap-16 ">
+               <div className="flex flex-col lg:gap-12">
+                  <h1 className="lg:text-[120px]">Anders</h1>
+                  <h1 className="lg:text-[120px]">Hausvik</h1>
+                </div>
+
+                <div>
+                  <h2 className="font-light lg:text-[40px]">Web og mobildesign</h2>
+                  <p className="lg:text-[30]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+               Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. </p>
+
+                </div>
               </div>
 
-              <div className="hidden sm:flex flex-col w-full bg-slate-600">
-                <h1>bilderamme</h1>
+              <div className="hidden sm:flex flex-col w-full items-end pr-7" >
+                <Image
+                 alt="bilde av meg selv"
+                 src={MegCrop5}
+                 width={200}
+                 height={200}
+                 className="w-4/6 h-full object-cover"
+                
+                />
               </div>
 
             </div>
 
             <div className="flex flex-col gap-10">
 
-                  <div className="flex-col justify-left gap-5 w-3/6 pl-6 sm:pl-0">
+                  <div className=" flex flex-col justify-left gap-4 w-3/6 pl-6 sm:pl-0">
                         <div >
-                          <h1>Prosjekt Seksjon</h1>
+                          <h1>Prosjekter</h1>
                         </div>
 
                         <div>
@@ -41,9 +59,9 @@ export default function Home() {
 
                   <div className="w-full flex flex-col items-center gap-20">
 
-                    <ProjectSection/>
-                    <ProjectSection/>
-                    <ProjectSection/>
+                    <ProjectSectionOne/>
+                    <ProjectSectionTwo/>
+                    <ProjectSectionThree/>
 
                   </div>
 

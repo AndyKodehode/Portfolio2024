@@ -13,6 +13,7 @@
 body {
   color: var(--kv-black);
   background: var(--kv-white);
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -44,7 +45,7 @@ h6 {
 
 @media not all and (min-width: 640px) {
   h1 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
   }
 
   h2 {

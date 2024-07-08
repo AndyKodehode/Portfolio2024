@@ -4,22 +4,23 @@
 export function NavBar(){
 
     return(
-        <div className="w-screen h-16 bg-slate-600 flex flex-row items-center justify-end md:pr-7 lg:pr-10 pr-4" >
-          <div className="md:flex flex-row gap-7 hidden" >
-              <div className="w-20 h-5 bg-white ">
+        <div className="w-screen h-16  flex flex-row items-center justify-end md:pr-7 lg:pr-10 pr-4" >
+          <div className="md:flex flex-row gap-4 hidden" >
 
+              <div className="w-20 h-5 ">
+                <p>Hjem</p>
               </div>
 
-              <div className="w-20 h-5 bg-white ">
-
+              <div className="w-20 h-5 ">
+                 <p>kontakt</p>
               </div>
 
-              <div className="w-20 h-5 bg-white ">
-
+              <div className="w-20 h-5 ">
+                 <p>CV</p>
               </div>
           </div>
 
-          <div className="block md:hidden lg:hidden w-10 h-10 bg-white ">
+          <div className="block md:hidden lg:hidden w-10 h-10 bg-slate-600">
 
           </div>
           
