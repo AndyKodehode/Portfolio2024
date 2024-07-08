@@ -78,6 +78,47 @@ export default function Home() {
                   </div>
             </div>
 
+            <div className="flex flex-col gap-10">
+                <h1 className="text-center">Programmer jeg kan</h1>
+                  <div className="w-full flex flex-wrap lg:flex-row justify-center gap-10">
+                      <div className="w-40 flex flex-col gap-4 bg-slate-600">
+                        <div>
+                          <p>Ikon</p>
+                        </div>
+                        <div>
+                          <p>Tittel</p>
+                        </div>
+                      </div>
+
+                      <div className=" w-40 flex flex-col gap-4 bg-slate-600">
+                        <div>
+                          <p>Ikon</p>
+                        </div>
+                        <div>
+                          <p>Tittel</p>
+                        </div>
+                      </div>
+
+                      <div className="w-40 flex flex-col gap-4 bg-slate-600">
+                        <div>
+                          <p>Ikon</p>
+                        </div>
+                        <div>
+                          <p>Tittel</p>
+                        </div>
+                      </div>
+
+                      <div className="w-40 flex flex-col gap-4 bg-slate-600">
+                        <div>
+                          <p>Ikon</p>
+                        </div>
+                        <div>
+                          <p>Tittel</p>
+                        </div>
+                      </div>
+                  </div>
+             </div>
+
       </div>
     
     </main>
