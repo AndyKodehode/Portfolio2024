@@ -8,6 +8,8 @@ import UIikon from "../../public/UIikon.svg"
 import MegCrop5 from "../../public/MegCrop5.jpg"
 import MobileIcon from "../../public/MobileIcon.svg"
 import kodeIkon from "../../public/kodeIkon.svg"
+import Colloseum from "../../public/Colloseum.jpg"
+import { SeMerBtn } from "../../components/navigation/buttons";
 import "./globals.css";
 
 export default function Home() {
@@ -91,14 +93,35 @@ export default function Home() {
 
             <div className="w-screen md:w-full flex flex-col gap-10">
                <h1 className="text-center">Min reise</h1>
-                  <div className="sm:w-full w-screen flex flex-col lg:flex-row gap-10">
-                      <div className="w-screen sm:w-full lg:w-4/6 bg-slate-600">
-                        <h1>Bilde</h1>
+                  <div className="sm:w-full w-screen flex flex-col lg:flex-row gap-20">
+                      <div className="flex justify-center items-center w-11/12 lg:h-96 md:w-full lg:w-full bg-portfolio-primary-blue rounded-md md:p-7">
+
+                                <div className="w-5/6 h-5/6 shadow-xl">
+                                      <Image 
+                                        alt="bilde av valg for brukeren"
+                                        src={Colloseum}
+                                        width={400}
+                                        height={300}
+                                        className="w-full h-full object-cover shadow-2xl"
+                                      ></Image>
+                                </div>
                       </div>
-                      <div>
-                          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                      <div className="flex flex-col w-full justify-center gap-10">
+                          <div>
+                                <p className="w-11/12 md:w-full pb-2">
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                  Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
+                                  Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
+                                </p>
+                          </div>
+                          <SeMerBtn/>
                       </div>
+
+
                   </div>
+
+                 
             </div>
 
             <div className="flex flex-col gap-10">
