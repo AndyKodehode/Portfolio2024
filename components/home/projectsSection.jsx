@@ -24,7 +24,7 @@ export function ProjectSectionOne(){
 
            <div className="flex flex-col w-full lg:w-2/6 gap-2">
               <h2>Fontenehus App</h2>
-                <p className="w-11/12 md:w-full pb-2">
+                <p className="w-11/12 md:w-full lg:pb-7">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                   Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
                   Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
@@ -42,7 +42,7 @@ export function ProjectSectionOne(){
 export function ProjectSectionTwo(){
   return(
       <div className="w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5">
-         <div className="flex justify-center items-center w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-portfolio-primary-yellow rounded-md md:p-7">
+         <div className="flex justify-center h-80 items-center w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-portfolio-primary-yellow rounded-md md:p-7">
 
              <div className="w-5/6 h-5/6 shadow-xl">
               <Image 
@@ -57,7 +57,7 @@ export function ProjectSectionTwo(){
 
          <div className="flex flex-col w-full lg:w-2/6 gap-2">
             <h2>Kodehode</h2>
-              <p className="w-11/12 md:w-full pb-2">
+              <p className="w-11/12 md:w-full lg:pb-7">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
                 Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
@@ -74,12 +74,17 @@ export function ProjectSectionTwo(){
 export function ProjectSectionThree(){
   return(
       <div className="w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5">
-         <div className="flex justify-center items-center w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-portfolio-primary-green rounded-md md:p-7">
+         <div className="flex justify-center h-80 items-center w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-portfolio-primary-green rounded-md md:p-7">
 
                 <div className="w-5/6 h-5/6 shadow-xl">
                 <Image 
                   alt="bilde av valg for brukeren"
                   src={Hawii2}
+                  srcSet={`
+                    ${smallImage} 600w,
+                    ${largeImage} 1200w
+                  `}
+                  layout="responsive"
                   width={400}
                   height={300}
                   className="w-full h-full object-cover shadow-2xl"
@@ -89,7 +94,7 @@ export function ProjectSectionThree(){
 
          <div className="flex flex-col w-full lg:w-2/6 gap-2">
             <h2>Hawii Analyse</h2>
-              <p className="w-11/12 md:w-full pb-2">
+              <p className="w-11/12 md:w-full lg:pb-7">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
                 Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 

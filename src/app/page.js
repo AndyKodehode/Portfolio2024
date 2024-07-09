@@ -10,6 +10,11 @@ import MobileIcon from "../../public/MobileIcon.svg"
 import kodeIkon from "../../public/kodeIkon.svg"
 import Colloseum from "../../public/Colloseum.jpg"
 import { SeMerBtn } from "../../components/navigation/buttons";
+import FigmaSirkel from "../../public/FigmaSirkel.svg"
+import JsSirkel from "../../public/JsSirkel.svg"
+import ReactSirkel from "../../public/ReactSirkel.svg"
+import AISirkel from "../../public/AISirkel.svg"
+import { OmMegBtn } from "../../components/navigation/buttons";
 import "./globals.css";
 
 export default function Home() {
@@ -18,39 +23,43 @@ export default function Home() {
           <NavBar/>
           
           
-          <div className="flex flex-col items-center justify-center lg:w-10/12 w-screen sm:w-11/12 gap-40 pt-20">
+          <div className="flex flex-col items-center justify-center lg:w-10/12 w-screen sm:w-11/12 gap-40 lg:pt-20">
 
-            <div className="flex flex-row w-full  gap-10">
-              <div className="w-full lg:w-10/12  flex flex-col gap-16 ">
-               <div className="flex flex-col lg:gap-12">
-                  <h1 className="lg:text-[120px]">Anders</h1>
-                  <h1 className="lg:text-[120px]">Hausvik</h1>
+                <div className="flex flex-row w-full gap-10">
+                      <div className="w-full items-center lg:items-start lg:w-10/12  flex flex-col lg:gap-16 lg:pt-12 ">
+                            <div className="flex flex-col lg:gap-12 items-center lg:items-start">
+                              <h1 className="lg:text-[120px] text-[60px]">Anders</h1>
+                              <h1 className="lg:text-[120px] text-[60px]">Hausvik</h1>
+                            </div>
+
+                            <div className="flex flex-col items-center lg:items-start gap-2">
+                                <h2 className="font-light lg:text-[40px] text-[24px]">Web og mobildesign</h2>
+                                <p className="lg:text-[30] lg:pb-12 p-5 lg:p-0 ">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
+                                </p>
+
+                                <OmMegBtn/>
+
+                            </div>
+                      </div>
+
+                      <div className="hidden sm:flex flex-col w-full items-end pr-7 " >
+                        <Image
+                        alt="bilde av meg selv"
+                        src={MegCrop5}
+                        width={200}
+                        height={200}
+                        className="w-4/6 h-full object-cover"
+                        
+                        />
+                      </div>
+
                 </div>
-
-                <div>
-                  <h2 className="font-light lg:text-[40px]">Web og mobildesign</h2>
-                  <p className="lg:text-[30]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-               Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. </p>
-
-                </div>
-              </div>
-
-              <div className="hidden sm:flex flex-col w-full items-end pr-7" >
-                <Image
-                 alt="bilde av meg selv"
-                 src={MegCrop5}
-                 width={200}
-                 height={200}
-                 className="w-4/6 h-full object-cover"
-                
-                />
-              </div>
-
-            </div>
 
             <div className="flex flex-col gap-10">
 
-                  <div className=" flex flex-col justify-left gap-4 w-3/6 pl-6 sm:pl-0">
+                  <div className=" flex flex-col justify-left gap-4 w-3/6 pl-6 sm:pl-0 lg:pb-12">
                         <div >
                           <h1>Prosjekter</h1>
                         </div>
@@ -124,42 +133,66 @@ export default function Home() {
                  
             </div>
 
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-16">
                 <h1 className="text-center">Programmer jeg kan</h1>
                   <div className="w-full flex flex-wrap lg:flex-row justify-center gap-10">
-                      <div className="w-40 flex flex-col gap-4 bg-slate-600">
+                      <div className="w-40 flex flex-col gap-4 items-center">
+                          <div>
+                                    <Image 
+                                        alt="bilde av valg for brukeren"
+                                        src={FigmaSirkel}
+                                        width={100}
+                                        height={100}
+                                      ></Image>
+                                
+                         </div>
+                          <div>
+                             <h4>Figma</h4>
+                          </div>
+                      </div>
+
+                      <div className=" w-40 flex flex-col gap-4 items-center ">
                         <div>
-                          <p>Ikon</p>
-                        </div>
+                                      <Image 
+                                          alt="bilde av valg for brukeren"
+                                          src={JsSirkel}
+                                          width={100}
+                                          height={100}
+                                        ></Image>
+                                  
+                          </div>
                         <div>
-                          <p>Tittel</p>
+                          <h4>Javascript</h4>
                         </div>
                       </div>
 
-                      <div className=" w-40 flex flex-col gap-4 bg-slate-600">
+                      <div className="w-40 flex flex-col gap-4 items-center">
+                          <div>
+                                    <Image 
+                                            alt="bilde av valg for brukeren"
+                                            src={ReactSirkel}
+                                            width={100}
+                                            height={100}
+                                    ></Image>
+                                    
+                            </div>
                         <div>
-                          <p>Ikon</p>
-                        </div>
-                        <div>
-                          <p>Tittel</p>
-                        </div>
-                      </div>
-
-                      <div className="w-40 flex flex-col gap-4 bg-slate-600">
-                        <div>
-                          <p>Ikon</p>
-                        </div>
-                        <div>
-                          <p>Tittel</p>
+                          <h4>React</h4>
                         </div>
                       </div>
 
-                      <div className="w-40 flex flex-col gap-4 bg-slate-600">
+                      <div className="w-40 flex flex-col gap-4 items-center">
+                           <div>
+                                    <Image 
+                                        alt="bilde av valg for brukeren"
+                                        src={AISirkel}
+                                        width={100}
+                                        height={100}
+                                      ></Image>
+                                
+                           </div>
                         <div>
-                          <p>Ikon</p>
-                        </div>
-                        <div>
-                          <p>Tittel</p>
+                           <h4>Illustrator</h4>
                         </div>
                       </div>
                   </div>
