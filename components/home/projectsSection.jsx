@@ -3,13 +3,14 @@ import AppMockUp from "../../public/AppMockUp.png"
 import KodehodeMain from "../../public/KodehodeMain.png"
 import KodehodeValg from "../../public/KodehodeValg.png"
 import Hawii2 from "../../public/Hawii2.png"
+import HawiiAvlang from "../../public/HawiiAvlang.png"
 import { SeMerBtn } from "../navigation/buttons"
 
 
 export function ProjectSectionOne(){
     return(
-        <div className="w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5">
-           <div className="flex justify-center w-11/12 md:w-full lg:w-3/6 bg-portfolio-primary-blue p-4 rounded-md">
+        <div className="w-screen lg:w-full md:w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5">
+           <div className="flex justify-center w-screen md:w-11/12 md:w-full lg:w-3/6 bg-portfolio-primary-blue p-4 md:rounded-md">
              <div>
               <Image 
                alt="bilde av meg selv"
@@ -22,7 +23,7 @@ export function ProjectSectionOne(){
            
            </div>
 
-           <div className="flex flex-col w-full lg:w-2/6 gap-2">
+           <div className="flex flex-col w-full lg:w-2/6 md:gap-2  gap-4 p-7 md:p-0">
               <h2>Fontenehus App</h2>
                 <p className="w-11/12 md:w-full lg:pb-7">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -41,21 +42,21 @@ export function ProjectSectionOne(){
 
 export function ProjectSectionTwo(){
   return(
-      <div className="w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5">
-         <div className="flex justify-center h-80 items-center w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-portfolio-primary-yellow rounded-md md:p-7">
+      <div className="w-screen lg:w-full md:w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5">
+         <div className="flex justify-center h-80 items-center w-screen md:w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-portfolio-primary-yellow md:rounded-md md:p-7">
 
-             <div className="w-5/6 h-5/6 shadow-xl">
+             <div className="flex justify-center  lg:w-5/6 lg:h-5/6 w-5/6 h-5/6 md:w-full md:h-full lg:shadow-xl ">
               <Image 
                alt="bilde av valg for brukeren"
                src={KodehodeValg}
                width={400}
                height={100}
-               className="w-full h-full object-cover "
+               className="w-full h-full md:w-5/6 lg:w-full md:object-cover object-contain "
               ></Image>
              </div>
          </div>
 
-         <div className="flex flex-col w-full lg:w-2/6 gap-2">
+         <div className="flex flex-col w-full lg:w-2/6 md:gap-2  gap-4 p-7 md:p-0">
             <h2>Kodehode</h2>
               <p className="w-11/12 md:w-full lg:pb-7">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -71,28 +72,26 @@ export function ProjectSectionTwo(){
   )
 }
 
+
+
 export function ProjectSectionThree(){
   return(
-      <div className="w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5">
-         <div className="flex justify-center h-80 items-center w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-portfolio-primary-green rounded-md md:p-7">
+      <div className="flex items-center w-screen lg:w-full sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5">
+         <div className="flex justify-center md:h-96 h-80 items-center w-screen p-0 md:w-11/12 lg:h-80 md:w-11/12 lg:w-3/6 bg-portfolio-primary-green md:rounded-md md:p-7 lg:pt-12">
 
-                <div className="w-5/6 h-5/6 shadow-xl">
-                <Image 
-                  alt="bilde av valg for brukeren"
-                  src={Hawii2}
-                  srcSet={`
-                    ${smallImage} 600w,
-                    ${largeImage} 1200w
-                  `}
-                  layout="responsive"
-                  width={400}
-                  height={300}
-                  className="w-full h-full object-cover shadow-2xl"
-                ></Image>
+                <div className=" w-5/6 lg:w-5/6 lg:h-full md:h-5/12 md:w-4/6  ">
+                  <Image 
+                    alt="bilde av valg for brukeren"
+                    src={Hawii2}
+                    layout="responsive"
+                    width={400}
+                    height={300}
+                    className="w-full h-full lg:w-5/6 object-contain md:object-cover "
+                  ></Image>
                 </div>
           </div>
 
-         <div className="flex flex-col w-full lg:w-2/6 gap-2">
+         <div className="flex flex-col md:w-11/12 w-full lg:w-2/6 md:gap-2  gap-4 p-7 md:p-0">
             <h2>Hawii Analyse</h2>
               <p className="w-11/12 md:w-full lg:pb-7">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
