@@ -5,6 +5,7 @@ import KodehodeValg from "../../public/KodehodeValg.png"
 import Hawii2 from "../../public/Hawii2.png"
 import HawiiAvlang from "../../public/HawiiAvlang.png"
 import { SeMerBtn } from "../navigation/buttons"
+import Link from "next/link"
 
 
 export function ProjectSectionOne(){
@@ -30,7 +31,12 @@ export function ProjectSectionOne(){
                   Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
                   Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
                 </p>
-                <SeMerBtn/>
+                <Link
+                  href="/fontenehuset"
+                  aria-label="mer info om hvem jeg er"
+                                >
+                  <SeMerBtn/>
+                 </Link>
                 
            </div>
 
@@ -63,7 +69,12 @@ export function ProjectSectionTwo(){
                 Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
                 Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
               </p>
-              <SeMerBtn/>
+              <Link
+                  href="/kodehode"
+                  aria-label="mer info om hvem jeg er"
+                                >
+                  <SeMerBtn/>
+              </Link>
               
          </div>
 

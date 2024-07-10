@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { NavBar } from "../../components/navigation/navbar";
 import { ProjectSectionOne, ProjectSectionTwo, ProjectSectionThree } from "../../components/home/projectsSection";
 import { BidragsKort } from "../../components/home/bidragKort";
 import chrome from "../../public/chrome.svg"
@@ -15,12 +14,13 @@ import JsSirkel from "../../public/JsSirkel.svg"
 import ReactSirkel from "../../public/ReactSirkel.svg"
 import AISirkel from "../../public/AISirkel.svg"
 import { OmMegBtn } from "../../components/navigation/buttons";
+import Link from "next/link";
 import "./globals.css";
 
 export default function Home() {
   return (
     <main className="flex flex-col gap-20 items-center min-h-screen p-0 w-screen pb-20" >
-          <NavBar/>
+          
           
           
           <div className="flex flex-col items-center justify-center lg:w-10/12 w-screen sm:w-11/12 gap-40 lg:pt-20">
@@ -39,7 +39,15 @@ export default function Home() {
                                 Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
                                 </p>
 
-                                <OmMegBtn/>
+                                
+
+                                <Link
+                                  href="/omMeg"
+                                  aria-label="mer info om hvem jeg er"
+                                  
+                                  >
+                                  <OmMegBtn/>
+                               </Link>
 
                             </div>
                       </div>
@@ -124,7 +132,13 @@ export default function Home() {
                                   Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
                                 </p>
                           </div>
+                          <Link
+                                  href="/minReise"
+                                  aria-label="mer info om hvem jeg er"
+                                  
+                                  >
                           <SeMerBtn/>
+                          </Link>
                       </div>
 
 
