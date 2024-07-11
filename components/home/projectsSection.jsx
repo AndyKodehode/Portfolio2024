@@ -54,7 +54,7 @@ export function ProjectSectionTwo(){
              <div className="flex justify-center  lg:w-5/6 lg:h-5/6 w-5/6 h-5/6 md:w-full md:h-full lg:shadow-xl ">
               <Image 
                alt="bilde av valg for brukeren"
-               src={KodehodeValg}
+               src={KodehodeMain}
                width={400}
                height={100}
                className="w-full h-full md:w-5/6 lg:w-full md:object-cover object-contain "
@@ -109,7 +109,12 @@ export function ProjectSectionThree(){
                 Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
                 Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
               </p>
-              <SeMerBtn/>
+              <Link
+                  href="/hawii"
+                  aria-label="mer info om hvem jeg er"
+                                >
+                  <SeMerBtn/>
+              </Link>
          </div>
 
       </div>
