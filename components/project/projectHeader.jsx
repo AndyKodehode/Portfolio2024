@@ -46,7 +46,7 @@ export function ProjectHeaderOne({bilde, dato, rolle, kunde}){
 export function ProjectHeaderTwo({bilde, dato, kunde, rolle}){
     return(
         <div className="w-full flex flex-col gap-20 items-center">
-                <div className="w-full lg:w-11/12 lg:h-[80vh]  flex items-center justify-center bg-portfolio-primary-blue p-12 lg:p-24">
+                <div className="w-full lg:w-full lg:h-[80vh]  flex items-center justify-center bg-portfolio-primary-blue  lg:p-24">
                     
                             <Image
                             src={bilde}
@@ -56,9 +56,9 @@ export function ProjectHeaderTwo({bilde, dato, kunde, rolle}){
                             />
                 </div>
 
-                <div className="flex flex row w-10/12">
+                <div className="flex flex row w-full p-12">
                         <div className="flex flex-col w-full gap-7">
-                            <h2>Prosjekt detaljer</h2>
+                            <h2 >Prosjekt detaljer</h2>
 
                             <div className="flex flex-row gap-4">
                                 <div className="flex flex-col gap-7">
