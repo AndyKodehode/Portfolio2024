@@ -20,7 +20,7 @@ export default function Kodehode(){
                 
             </div>
 
-            <div className="lg:w-screen flex flex-col items-center bg-[#E0FAEC] h-[60vh]">
+            <div className="lg:w-screen flex flex-col items-center bg-[#CCE0FF] h-[60vh]">
                 <div className="lg:w-10/12">
                 <ProjectBlockOne bilde={KodehodeBedrift} title="Målgrupper " text="Her kommer noe tekst som er relevant"/>
                 </div>
