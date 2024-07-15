@@ -1,7 +1,13 @@
 import { ProjectHeaderTwo } from "../../../components/project/projectHeader"
 import HawiiVT from "../../../public/HawiiVT.PNG"
-import { ProjectBlockBottom, ProjectBlockOne, ProjectBlockTwo, ProjectBlockThree } from "../../../components/project/projectBlock"
+import { ProjectBlockBottom, ProjectBlockOne, ProjectBlockTwo, ProjectBlockThree, ProjectBlockHawii } from "../../../components/project/projectBlock"
 import test from "../../../public/test.jpg"
+import HawiiMaal from "../../../public/HawiiMaal.jpg"
+import HawiiFirstDesign from "../../../public/HawiiFirstDesign.png"
+import HawiiFigma from "../../../public/HawiiFigma.png"
+import kunde from "../../../public/kunde.jpg"
+import samarbeid from "../../../public/samarbeid.jpg"
+import HawiiDesign from "../../../public/HawiiDesign.png"
 
 export default function Hawii(){
     return(
@@ -10,9 +16,9 @@ export default function Hawii(){
                 <ProjectHeaderTwo bilde={HawiiVT}/>
             </div>
 
-            <div className="lg:w-screen flex flex-col items-center bg-[#CCE0FF] h-[60vh]">
+            <div className="lg:w-screen flex flex-col items-center bg-[#CCE0FF] h-[80vh] mt-32">
                 <div className="lg:w-10/12">
-                <ProjectBlockOne bilde={test} title="Målgrupper " text="Her kommer noe tekst som er relevant"/>
+                  <ProjectBlockHawii bilde={HawiiMaal} title="Målgruppe " text="Her kommer noe tekst som er relevant"/>
                 </div>
             </div>
             
@@ -23,15 +29,15 @@ export default function Hawii(){
                         <p>her kommer noe tekst om prosessen</p>
                     </div>
                     <div className="lg:w-full flex flex-col items-center">
-                        <ProjectBlockTwo bilde={test} title="Jobloop og utgangspunkt" text="Her kommer noe tekst som er relevant"/>
-                        <ProjectBlockTwo bilde={test} title="Inspirasjon og ideer" text="Her kommer noe tekst som er relevant"/>
+                        <ProjectBlockTwo bilde={HawiiFirstDesign} title="Påbegynt design" text="Her kommer noe tekst som er relevant"/>
+                        <ProjectBlockTwo bilde={HawiiFigma} title="Design og utprøving" text="Her kommer noe tekst som er relevant"/>
                     </div>
                 </div>
 
                 <div className="lg:w-screen flex flex-col items-center bg-[#CCE0FF]">
                    <div className="lg:w-10/12">
-                    <ProjectBlockThree bilde={test} title="Jobloop og utgangspunkt" text="Her kommer noe tekst som er relevant" />
-                    <ProjectBlockThree bilde={test} title="Prototyping" text="Her kommer noe tekst som er relevant" />
+                   <ProjectBlockThree bilde={kunde} title="Tilbakemeldinger fra kunden" text="Her kommer noe tekst som er relevant" />
+                    <ProjectBlockThree bilde={samarbeid} title="Samarbeid med utviklere" text="Her kommer noe tekst som er relevant" />
                     </div>
                 </div>
             </div>
@@ -41,7 +47,7 @@ export default function Hawii(){
                         <h2 className="text-[46px]">Utfordringer og læring</h2>
                         <p>her kommer noe tekst om læring i prosjektet</p>
                     </div>
-                    <ProjectBlockBottom bilde={test}/>
+                    <ProjectBlockBottom bilde={HawiiDesign}/>
             </div>
         </div>
     )

@@ -3,17 +3,17 @@ import Image from "next/image"
 
 export function ProjectBlockOne({bilde, title, text}){
     return(
-        <div className="lg:w-full flex flex-row p-12">
+        <div className="lg:w-full h-full flex flex-row p-12">
             <div className="w-3/6 flex flex-col">
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>
-            <div className="w-4/6">
+            <div className="w-4/6 h-full overflow-hidden">
                <Image
                src={bilde}
                width={400}
                height={400}
-               className="rounded-md w-full shadow-lg"
+               className="rounded-md w-full h-full shadow-lg object-cover"
                /> 
             </div>
 
@@ -98,4 +98,25 @@ export function ProjectBlockBottom({bilde, title, text}){
 
                         </div>
                     </div>)
+}
+
+
+export function ProjectBlockHawii({bilde, title, text}){
+    return(
+        <div className="lg:w-full h-full flex flex-row p-12">
+            <div className="w-3/6 flex flex-col">
+                <h2>{title}</h2>
+                <p>{text}</p>
+            </div>
+            <div className="w-3/6 h-full overflow-hidden">
+               <Image
+               src={bilde}
+               width={400}
+               height={400}
+               className="rounded-md w-full h-3/6 shadow-lg object-cover"
+               /> 
+            </div>
+
+        </div>
+    )
 }
