@@ -8,7 +8,7 @@ export function NavBar(){
 
 
     return(
-        <div className="w-screen h-16  flex flex-row items-center justify-end md:pr-5 lg:pr-10 pr-4 bg-portfolio-primary-blue md:bg-white lg:bg-white" >
+        <div className="w-screen h-16  flex flex-row items-center justify-end md:pr-5 lg:pr-10 pr-4 bg-portfolio-primary-blue md:bg-kv-white lg:bg-kv-white" >
           <div className="md:flex flex-row lg:gap-4 md:gap-2 hidden" >
 
              
@@ -16,7 +16,7 @@ export function NavBar(){
               <div className="w-20 h-5 ">
                 <Link
                   href="/"
-                  aria-label="gå til denne undersiden for å lese om vår visjon"
+                  aria-label="link til hjem"
                   
                 >
                   Hjem
@@ -26,7 +26,7 @@ export function NavBar(){
               <div className="w-20 h-5 ">
                 <Link
                   href="/kontakt"
-                  aria-label="gå til denne undersiden for å lese om vår visjon"
+                  aria-label="link til kontaktsiden"
                   
                 >
                   Kontakt
@@ -36,7 +36,7 @@ export function NavBar(){
               <div className="w-20 h-5 ">
                  <Link
                   href="/omMeg"
-                  aria-label="gå til denne undersiden for å lese om vår visjon"
+                  aria-label="link til siden om meg"
                   
                   >
                   Om meg

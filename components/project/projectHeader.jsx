@@ -3,13 +3,13 @@ import Image from "next/image"
 export function ProjectHeaderOne({bilde, dato, rolle, kunde}){
     return(
         <div className="w-full flex flex-col gap-20 items-center">
-            <div className="w-full lg:w-11/12 lg:h-[80vh] flex items-center justify-center bg-portfolio-primary-blue p-24">
+            <div className="w-full lg:w-11/12 lg:h-[80vh] flex items-center justify-center bg-portfolio-primary-blue p-24 ">
                 <div className="w-full lg:w-3/6 ml-7">
                         <Image
                         src={bilde}
                         width={500}
                         height={500}
-                        className="w-5/6 h-5/6 object-cover "
+                        className="w-full lg:w-5/6 md:w-5/6 h-5/6 object-cover "
                         />
                 </div>
             </div>

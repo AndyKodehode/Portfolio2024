@@ -36,7 +36,7 @@ const HamburgerMenu = ({ hamFill }) => {
       >
         <GiHamburgerMenu
           className={`w-20 h-20 ${
-            hamFill == "white" ?  "fill-portfolio-primary-blue" : "fill-kv-white" 
+            hamFill == "kv-white" ?  "fill-portfolio-primary-blue" : "fill-kv-white" 
           }`}
         />
       </button>
