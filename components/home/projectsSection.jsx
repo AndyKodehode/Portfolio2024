@@ -51,13 +51,13 @@ export function ProjectSectionTwo(){
       <div className="flex items-center w-screen lg:w-full md:w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5">
          <div className="flex justify-center h-80 items-center w-screen md:w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-portfolio-primary-yellow md:rounded-md md:p-7">
 
-             <div className="flex justify-center  lg:w-5/6 lg:h-5/6 w-5/6 h-5/6 md:w-full md:h-full lg:shadow-xl ">
+             <div className="flex justify-center  lg:w-5/6 lg:h-5/6 w-5/6 h-5/6 md:w-4/6 md:h-5/6 md:shadow-xl lg:shadow-xl ">
               <Image 
                alt="bilde av valg for brukeren"
                src={KodehodeMain}
                width={400}
                height={100}
-               className="w-full h-full md:w-5/6 lg:w-full md:object-cover object-contain "
+               className="w-full h-full md:object-cover object-contain "
               ></Image>
              </div>
          </div>
