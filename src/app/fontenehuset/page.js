@@ -8,7 +8,7 @@ import { ProjectBlockBottom, ProjectBlockOne, ProjectBlockTwo, ProjectBlockThree
 export default function Fontenehus(){
     return(
         <div className="w-full flex flex-col items-center pb-20">
-            <div className="w-full lg:w-11/12 gap-10 pt-20 flex justify-center">
+            <div className="w-full lg:w-11/12 gap-10 md:pt-20 lg:pt-20 pt-0 flex justify-center">
                 <ProjectHeaderOne bilde={AppMockUp}/>
             </div>
 
