@@ -2,6 +2,7 @@ import { ProjectHeaderOne } from "../../../components/project/projectHeader"
 import AppMockUp from "../../../public/AppMockUp.png"
 import test from "../../../public/test.jpg"
 import AppPresentasjon from "../../../public/AppPresentasjon.jpg"
+import IgangIgjen from "../../../public/IgangIgjen.jpg"
 import { ProjectBlockBottom, ProjectBlockOne, ProjectBlockTwo, ProjectBlockThree } from "../../../components/project/projectBlock"
 
 
@@ -12,25 +13,25 @@ export default function Fontenehus(){
                 <ProjectHeaderOne bilde={AppMockUp}/>
             </div>
 
-            <div className="lg:w-screen flex flex-col items-center bg-[#CCE0FF] h-[80vh] mt-32">
-                <div className="lg:w-10/12">
-                <ProjectBlockOne bilde={test} title="Målgrupper " text="Her kommer noe tekst som er relevant"/>
+            <div className="w-screen flex flex-col items-center md:bg-[#CCE0FF] lg:h-[80vh] md:h-[40vh] mt-32">
+                <div className="lg:w-10/12 flex justify-center">
+                  <ProjectBlockOne bilde={test} title="Målgrupper " text="Her kommer noe tekst som er relevant"/>
                 </div>
             </div>
             
             <div className="lg:w-11/12 flex flex-col items-center gap-24 p-12">
                 <div className="w-full flex flex-col">
-                    <div className="w-full flex flex-col items-left p-12 pl-14">
+                    <div className="w-full flex flex-col items-left md:p-12 md:pl-14 pl-20">
                         <h2 className="text-[46px]">Prosess</h2>
                         <p>her kommer noe tekst om prosessen</p>
                     </div>
                     <div className="lg:w-full flex flex-col items-center">
-                        <ProjectBlockTwo bilde={AppPresentasjon} title="Jobloop og utgangspunkt" text="Her kommer noe tekst som er relevant"/>
+                        <ProjectBlockTwo bilde={IgangIgjen} title="Jobloop og utgangspunkt" text="Her kommer noe tekst som er relevant"/>
                         <ProjectBlockTwo bilde={test} title="Inspirasjon og ideer" text="Her kommer noe tekst som er relevant"/>
                     </div>
                 </div>
 
-                <div className="lg:w-screen flex flex-col items-center bg-[#CCE0FF]">
+                <div className="w-screen flex flex-col items-center md:bg-[#CCE0FF]">
                    <div className="lg:w-10/12">
                     <ProjectBlockThree bilde={test} title="Jobloop og utgangspunkt" text="Her kommer noe tekst som er relevant" />
                     <ProjectBlockThree bilde={test} title="Prototyping" text="Her kommer noe tekst som er relevant" />

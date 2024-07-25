@@ -3,17 +3,17 @@ import Image from "next/image"
 
 export function ProjectBlockOne({bilde, title, text}){
     return(
-        <div className="lg:w-full h-full flex flex-row p-12">
-            <div className="w-3/6 flex flex-col">
+        <div className="lg:w-full md:w-full w-5/6 h-full flex md:flex-row flex-col items-center lg:p-12 py-12 px-0 md:gap-16 gap-12">
+            <div className="md:w-3/6 w-full flex flex-col">
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>
-            <div className="w-4/6 h-full overflow-hidden">
+            <div className="md:w-4/6 w-screen h-full ">
                <Image
                src={bilde}
                width={400}
                height={400}
-               className="rounded-md w-full h-full shadow-lg object-cover"
+               className="md:rounded-md w-full h-full md:shadow-lg object-cover"
                /> 
             </div>
 
@@ -23,17 +23,17 @@ export function ProjectBlockOne({bilde, title, text}){
 
 export function ProjectBlockTwo({bilde, title, text}){
     return(
-        <div className="lg:w-full flex flex-row-reverse gap-24 p-12">
-            <div className="w-3/6 flex flex-col">
+        <div className="lg:w-full flex md:flex-row-reverse flex-col gap-12 md:gap-24 p-12">
+            <div className="md:w-3/6 flex flex-col p-7 w-full">
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>
-            <div className="w-4/6">
+            <div className="md:w-4/6 w-screen">
                <Image
                src={bilde}
                width={400}
                height={400}
-               className="rounded-md w-full h-full"
+               className="md:rounded-md w-full h-full"
                /> 
             </div>
 
@@ -43,17 +43,17 @@ export function ProjectBlockTwo({bilde, title, text}){
 
 export function ProjectBlockThree({bilde, title, text}){
     return(
-        <div className="lg:w-full flex flex-row p-12">
-            <div className="w-3/6 flex flex-col">
+        <div className="lg:w-full flex md:flex-row flex-col gap-12 p-12">
+            <div className="md:w-3/6 w-screen h-full pl-12 ">
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>
-            <div className="w-4/6">
+            <div className="md:w-4/6 w-screen">
                <Image
                src={bilde}
                width={400}
                height={400}
-               className="rounded-md w-full shadow-lg"
+               className="md:rounded-md w-full md:shadow-lg"
                /> 
             </div>
 
