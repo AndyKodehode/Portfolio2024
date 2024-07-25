@@ -10,7 +10,7 @@ export function BidragsKort({bilde, tittel}){
                   src={bilde}
                   width={75}
                   height={75}
-                  className="w-2/12"
+                  className=" w-3/12 lg:w-2/12 md:w-3/12"
                 ></Image>
                 <h3>{tittel}</h3>
                 <p className="w-5/6 text-center">Lorem ipsum dolor sit amet consectetur</p>
