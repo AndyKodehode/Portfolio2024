@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function ProjectBlockOne({bilde, title, text}){
     return(
-        <div className="lg:w-full md:w-full w-5/6 h-full flex md:flex-row flex-col items-center lg:p-12 py-12 px-0 md:gap-16 gap-12">
+        <div className="lg:w-full md:w-full w-5/6 h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 py-12 px-0 md:gap-16 gap-12">
             <div className="md:w-3/6 w-full flex flex-col">
                 <h2>{title}</h2>
                 <p>{text}</p>
