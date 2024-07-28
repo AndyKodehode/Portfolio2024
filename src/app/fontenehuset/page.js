@@ -19,7 +19,7 @@ export default function Fontenehus(){
                 </div>
             </div>
             
-            <div className="lg:w-11/12 flex flex-col items-center gap-24 p-12">
+            <div className="lg:w-11/12 flex flex-col items-center gap-24 p-12 mt-12">
                 <div className="w-full flex flex-col">
                     <div className="w-full flex flex-col items-left md:p-12 md:pl-14 ">
                         <h2 className="text-[46px] text-center md:text-left">Prosess</h2>
