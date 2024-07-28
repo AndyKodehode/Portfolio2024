@@ -4,7 +4,7 @@ import HamburgerMenu from "./hamburger"
 
 
 
-export function NavBar(){
+export function NavBar({hamfill}){
 
 
     return(
@@ -45,7 +45,7 @@ export function NavBar(){
           </div>
 
           <div className="block md:hidden lg:hidden w-10 h-10 ">
-            <HamburgerMenu/>
+            <HamburgerMenu hamFill={hamfill}/>
           </div>
           
         </div>

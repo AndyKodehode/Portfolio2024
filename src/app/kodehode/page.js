@@ -15,13 +15,13 @@ import { ProjectBlockBottom } from "../../../components/project/projectBlock"
 export default function Kodehode(){
     return(
         <div className="w-full flex flex-col items-center pb-20 gap-32 ">
-            <div className="w-full lg:w-10/12 gap-10 pt-20 flex justify-center items-center ">
+            <div className="w-full lg:w-10/12 gap-10 md:pt-20 flex justify-center items-center ">
                 <ProjectHeaderTwo bilde={KodehodeValg} rolle="Design" dato="sep 23-aug 24" kunde="Jobloop"/>
                 
             </div>
 
-            <div className="lg:w-screen flex flex-col items-center bg-[#CCE0FF] h-[60vh]">
-                <div className="lg:w-10/12">
+            <div className="w-screen flex flex-col items-center md:bg-[#CCE0FF] lg:h-[70vh] md:h-[40vh] mt-32">
+                <div className="lg:w-10/12 flex justify-center">
                 <ProjectBlockOne bilde={KodehodeBedrift} title="Målgrupper " text="Her kommer noe tekst som er relevant"/>
                 </div>
             </div>
@@ -38,7 +38,7 @@ export default function Kodehode(){
                     </div>
                 </div>
 
-                <div className="lg:w-screen flex flex-col items-center bg-[#CCE0FF]">
+                <div className="lg:w-screen flex flex-col items-center md:bg-[#CCE0FF]">
                    <div className="lg:w-10/12">
                     <ProjectBlockThree bilde={KodehodeFigma} title="Jobloop og utgangspunkt" text="Her kommer noe tekst som er relevant" />
                     <ProjectBlockThree bilde={KodehodePT} title="Prototyping" text="Her kommer noe tekst som er relevant" />
@@ -46,7 +46,7 @@ export default function Kodehode(){
                 </div>
             </div>
 
-            <div className="w-10/12 flex flex-col p-12 gap-10">
+            <div className="w-full md:w-10/12 flex flex-col p-12 gap-10">
                     <div className="w-full flex flex-col items-left ">
                         <h2 className="text-[46px]">Utfordringer og læring</h2>
                         <p>her kommer noe tekst om læring i prosjektet</p>

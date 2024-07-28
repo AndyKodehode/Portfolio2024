@@ -39,7 +39,7 @@ export default function Fontenehus(){
                 </div>
             </div>
 
-            <div className="w-10/12 flex flex-col p-12 gap-10">
+            <div className=" w-full md:w-10/12 flex flex-col p-12 gap-10">
                     <div className="w-full flex flex-col items-left ">
                         <h2 className="text-[46px]">Utfordringer og læring</h2>
                         <p>her kommer noe tekst om læring i prosjektet</p>
