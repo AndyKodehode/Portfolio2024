@@ -4,7 +4,7 @@ export function ProjectHeaderOne({bilde, dato, rolle, kunde}){
     return(
         <div className="w-full flex flex-col gap-20 items-center">
             <div className="w-full lg:w-11/12 lg:h-[80vh] flex items-center justify-center bg-portfolio-primary-blue p-24 ">
-                <div className="flex items-center justify-center md:w-4/6 lg:w-3/6 w-3/6 ml-7">
+                <div className="flex items-center justify-center md:w-4/6 lg:w-3/6 w-5/6 ml-7">
                         <Image
                         src={bilde}
                         width={500}
