@@ -3,12 +3,12 @@ import Image from "next/image"
 
 export function ProjectBlockOne({bilde, title, text}){
     return(
-        <div className="lg:w-full md:w-full w-5/6 h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 py-12 px-0 md:gap-16 gap-12">
+        <div className="lg:w-full md:w-full w-full h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 p-12  md:gap-16 gap-12">
             <div className="md:w-3/6 w-full flex flex-col">
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>
-            <div className="md:w-4/6 w-screen h-full ">
+            <div className="md:w-4/6 w-full h-full ">
                <Image
                src={bilde}
                width={400}
@@ -24,11 +24,11 @@ export function ProjectBlockOne({bilde, title, text}){
 export function ProjectBlockTwo({bilde, title, text}){
     return(
         <div className="lg:w-full flex md:flex-row-reverse flex-col gap-12 md:gap-24 p-12">
-            <div className="md:w-3/6 flex flex-col p-7 w-full">
+            <div className="md:w-3/6 flex flex-col  w-full">
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>
-            <div className="md:w-4/6 w-screen">
+            <div className="md:w-4/6 w-full">
                <Image
                src={bilde}
                width={400}
@@ -44,11 +44,11 @@ export function ProjectBlockTwo({bilde, title, text}){
 export function ProjectBlockThree({bilde, title, text}){
     return(
         <div className="lg:w-full flex md:flex-row flex-col gap-12 p-12">
-            <div className="md:w-3/6 w-screen h-full p-7 ">
+            <div className="md:w-3/6 w-full h-full">
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>
-            <div className="md:w-4/6 w-screen">
+            <div className="md:w-4/6 w-full">
                <Image
                src={bilde}
                width={400}
