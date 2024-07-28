@@ -44,7 +44,7 @@ export function ProjectBlockTwo({bilde, title, text}){
 export function ProjectBlockThree({bilde, title, text}){
     return(
         <div className="lg:w-full flex md:flex-row flex-col gap-12 p-12">
-            <div className="md:w-3/6 w-screen h-full pl-12 ">
+            <div className="md:w-3/6 w-screen h-full p-7 ">
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>

@@ -21,9 +21,9 @@ export default function Fontenehus(){
             
             <div className="lg:w-11/12 flex flex-col items-center gap-24 p-12">
                 <div className="w-full flex flex-col">
-                    <div className="w-full flex flex-col items-left md:p-12 md:pl-14 pl-20">
-                        <h2 className="text-[46px]">Prosess</h2>
-                        <p>her kommer noe tekst om prosessen</p>
+                    <div className="w-full flex flex-col items-left md:p-12 md:pl-14 ">
+                        <h2 className="text-[46px] text-center md:text-left">Prosess</h2>
+                        <p className="text-center md:text-left">her kommer noe tekst om prosessen</p>
                     </div>
                     <div className="lg:w-full flex flex-col items-center">
                         <ProjectBlockTwo bilde={IgangIgjen} title="Jobloop og utgangspunkt" text="Her kommer noe tekst som er relevant"/>
@@ -41,8 +41,8 @@ export default function Fontenehus(){
 
             <div className=" w-full md:w-10/12 flex flex-col p-12 gap-10">
                     <div className="w-full flex flex-col items-left ">
-                        <h2 className="text-[46px]">Utfordringer og læring</h2>
-                        <p>her kommer noe tekst om læring i prosjektet</p>
+                        <h2 className="text-[42px] text-center md: text-left">Utfordringer og læring</h2>
+                        <p className="text-center md:text-left">her kommer noe tekst om læring i prosjektet</p>
                     </div>
                     <ProjectBlockBottom bilde={test}/>
             </div>
