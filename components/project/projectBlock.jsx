@@ -13,7 +13,7 @@ export function ProjectBlockOne({bilde, title, text}){
                src={bilde}
                width={400}
                height={400}
-               className="md:rounded-md w-full h-full md:shadow-lg object-cover"
+               className="rounded-md w-full h-full md:shadow-lg object-cover"
                /> 
             </div>
 
@@ -33,7 +33,7 @@ export function ProjectBlockTwo({bilde, title, text}){
                src={bilde}
                width={400}
                height={400}
-               className="md:rounded-md w-full h-full"
+               className="rounded-md w-full h-full"
                /> 
             </div>
 
@@ -53,7 +53,7 @@ export function ProjectBlockThree({bilde, title, text}){
                src={bilde}
                width={400}
                height={400}
-               className="md:rounded-md w-full md:shadow-lg"
+               className="rounded-md w-full md:shadow-lg"
                /> 
             </div>
 

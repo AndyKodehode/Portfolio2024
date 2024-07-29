@@ -52,11 +52,11 @@ export function ProjectHeaderTwo({bilde, dato, kunde, rolle}){
                             src={bilde}
                             width={500}
                             height={500}
-                            className="w-4/6 lg:w-5/6 lg:h-full h-5/6 lg:object-cover  object-contain lg:shadow-2xl ml-4"
+                            className="w-5/6 lg:w-5/6 lg:h-full h-5/6 lg:object-cover  object-contain lg:shadow-2xl ml-4"
                             />
                 </div>
 
-                <div className="flex flex row w-full p-12">
+                <div className="flex flex-col md:flex-row w-full p-12 md:gap-7 gap-16">
                         <div className="flex flex-col w-full gap-7">
                             <h2 >Prosjekt detaljer</h2>
 
