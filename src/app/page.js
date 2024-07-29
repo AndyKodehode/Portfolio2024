@@ -27,7 +27,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center lg:w-10/12 w-screen sm:w-11/12 gap-40 lg:pt-20 md:pt-12 pt-7">
 
                 <div className="flex flex-row w-full gap-10">
-                      <div className="w-full items-center md:items-start lg:w-10/12  flex flex-col gap-5 lg:gap-16 lg:pt-12 md:pt-12 md:p-12 ">
+                      <div className="w-full items-center md:items-start lg:w-11/12  flex flex-col gap-5 lg:gap-16 lg:pt-12 md:pt-12 md:p-12 lg:p-0 ">
                             <div className="flex flex-col lg:gap-12 items-center lg:items-start md:items-start">
                               <h1 className="lg:text-[120px] text-[60px] ">Anders</h1>
                               <h1 className="lg:text-[120px] text-[60px] ">Hausvik</h1>
@@ -68,12 +68,12 @@ export default function Home() {
 
             <div className="flex flex-col gap-10 w-full">
 
-                  <div className=" flex flex-col justify-left gap-4 w-5/6 md:w-3/6 md:pl-10 pl-6 lg:p-0 lg:pb-12">
-                        <div >
+                  <div className=" flex flex-col justify-center items-center md:items-start md:justify-left gap-4 w-full md:w-3/6 md:pl-10 p-7 lg:p-0 lg:pb-12">
+                        <div className="text-center md:text-left ">
                           <h1>Prosjekter</h1>
                         </div>
 
-                        <div>
+                        <div className="text-center md:text-left">
                           <p>
                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                           Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
