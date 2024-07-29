@@ -14,8 +14,8 @@ export function ProjectHeaderOne({bilde, dato, rolle, kunde}){
                 </div>
             </div>
 
-            <div className="flex flex row w-full p-12">
-                        <div className="flex flex-col w-full gap-7">
+            <div className="flex flex row w-full lg:w-11/12  lg:p-16 p-12">
+                        <div className="flex flex-col w-full gap-4 md:gap-7">
                             <h2>Prosjekt detaljer</h2>
 
                             <div className="flex flex-row gap-4">
