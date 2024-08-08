@@ -64,16 +64,16 @@ export function ProjectBlockThree({bilde, title, text}){
 export function ProjectBlockBottom({bilde, title, text}){
     return(
 
-                 <div className="lg:w-full flex md:flex-row flex-col items-center gap-12">
-                        <div className="md:w-3/6 w-screen">
+                 <div className="lg:w-full flex lg:flex-row flex-col md:items-start items-center gap-12">
+                        <div className="md:w-full w-screen">
                         <Image
                             src={bilde}
                             width={400}
                             height={400}
-                            className="md:rounded-md w-full md:shadow-lg"
+                            className="md:rounded-md lg:w-5/6 w-full smd:shadow-lg h-full object-contain"
                             /> 
                         </div>
-                        <div className="flex flex-row md:w-3/6 w-full gap-5">
+                        <div className="flex flex-row md:w-5/6 w-full gap-7">
                                 <div className="flex flex-col md:gap-20 gap-36 ">
                                     <h2>1</h2>
                                     <h2>2</h2>
