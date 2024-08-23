@@ -85,7 +85,7 @@ export default function Home() {
                   <div className="w-full flex flex-col items-center gap-20">
 
                     <ProjectSectionOne/>
-                    <ProjectSectionTwo/>
+                    {/* <ProjectSectionTwo/> */}
                     <ProjectSectionThree/>
 
                   </div>
