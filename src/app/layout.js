@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body >
       <NavBar/>
         
-      <div className="flex-1 overflow-x-hidden">{children}</div>
+      <div className="flex-1 ">{children}</div>
       
       </body>
     </html>
