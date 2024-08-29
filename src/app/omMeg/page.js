@@ -12,11 +12,11 @@ export default function OmMeg(){
         
         <div className="w-full flex flex-col  md:flex-row gap-20 md:items-start lg:items-end justify-end pt-10 relative ">
             
-          <div className="h-screen">
-            <Image className=" lg:w-2/6 w-4/6  lg:absolute lg:top-[-70px] lg:left-0 z-20 h-auto object-cover" src={MegSelv}/>
+          <div className="lg:h-screen h-3/6 flex justify-center w-full md:w-4/6">
+            <Image className=" lg:w-2/6 w-4/6  lg:absolute lg:top-[-70px] lg:left-0 z-20 lg:h-auto object-cover" src={MegSelv}/>
           </div>
             
-            <div className="lg:w-4/6 w-4/6 w-full flex flex-col md:p-0 p-12 lg:pl-32 ">
+            <div className="lg:w-4/6 md:w-full w-4/6 w-full flex flex-col md:p-0 p-12 lg:pl-32 ">
                     <div className="w-full flex flex-col lg:p-12 gap-7 ">
                         <div className="flex flex-col gap-3 pb-12 md:pb-0 ">
                             <h1>Hvem er jeg?</h1>
@@ -36,25 +36,26 @@ export default function OmMeg(){
                             </div>
                         </div>
 
-                        <div className="w-full flex flex-col items-center pt-16 pr-12 gap-12">
+                        <div className="w-full flex flex-col items-center pt-16  pr-12 gap-12">
                             <h3>Mine styrker</h3>
-                           <div className="w-full flex flex-col lg:flex-row md:flex-wrap justify-evenly items-center lg:gap-2 gap-12">
-                                <div className="flex flex-row md:flex-col items-center md:gap-3 gap-7">
+                           <div className="w-full flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-evenly items-center gap-12 lg:gap-7">
+
+                                <div className="flex flex-row md:flex-col items-center md:gap-3 gap-7 justify-center w-2/6">
                                     <Image src={Briller}/>
-                                    <p className="w-4/6 md:text-center">Ser hva andre er gode på</p>
+                                    <p className="w-full md:text-center">Ser hva andre er gode på</p>
                                 </div>
 
-                                <div className="flex flex-row md:flex-col items-center md:gap-3 gap-7">
+                                <div className="flex flex-row md:flex-col items-center justify-center md:gap-3 gap-7 w-2/6">
                                     <Image src={Books}/>
                                     <p className="w-4/6 md:text-center">Liker å lære nye ting</p>
                                 </div>
 
-                                <div className="flex flex-row md:flex-col items-center md:gap-3 gap-7">
+                                <div className="flex flex-row md:flex-col items-center justify-center md:gap-3 gap-7 w-2/6">
                                     <Image src={Lys}/>
                                     <p className="w-4/6 md:text-center">Kreativ og løsningsorientert</p>
                                 </div>
 
-                                <div className="flex flex-row md:flex-col items-center md:gap-3 gap-7">
+                                <div className="flex flex-row md:flex-col items-center justify-center md:gap-3 gap-7 w-2/6">
                                     <Image src={Target}/>
                                     <p className="w-4/6 md:text-center">Målrettet, liker å se resultater</p>
                                 </div>
