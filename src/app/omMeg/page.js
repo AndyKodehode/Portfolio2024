@@ -42,22 +42,22 @@ export default function OmMeg(){
 
                                 <div className="flex flex-row md:flex-col items-center md:gap-3 gap-7 justify-center w-2/6">
                                     <Image src={Briller}/>
-                                    <p className="w-full md:text-center">Ser hva andre er gode på</p>
+                                    <p className="min-w-24 md:text-center">Ser hva andre er gode på</p>
                                 </div>
 
                                 <div className="flex flex-row md:flex-col items-center justify-center md:gap-3 gap-7 w-2/6">
                                     <Image src={Books}/>
-                                    <p className="w-4/6 md:text-center">Liker å lære nye ting</p>
+                                    <p className="min-w-24  md:text-center">Liker å lære nye ting</p>
                                 </div>
 
                                 <div className="flex flex-row md:flex-col items-center justify-center md:gap-3 gap-7 w-2/6">
                                     <Image src={Lys}/>
-                                    <p className="w-4/6 md:text-center">Kreativ og løsningsorientert</p>
+                                    <p className="min-w-24  md:text-center">Kreativ og løsningsorientert</p>
                                 </div>
 
                                 <div className="flex flex-row md:flex-col items-center justify-center md:gap-3 gap-7 w-2/6">
                                     <Image src={Target}/>
-                                    <p className="w-4/6 md:text-center">Målrettet, liker å se resultater</p>
+                                    <p className="min-w-24  md:text-center">Målrettet, liker å se resultater</p>
                                 </div>
                            </div>
                         </div>
