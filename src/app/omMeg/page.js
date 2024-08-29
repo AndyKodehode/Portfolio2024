@@ -16,7 +16,7 @@ export default function OmMeg(){
             <Image className=" lg:w-2/6 w-4/6  lg:absolute lg:top-[-70px] lg:left-0 z-20 lg:h-auto object-cover" src={MegSelv}/>
           </div>
             
-            <div className="lg:w-4/6 md:w-full w-4/6 w-full flex flex-col md:p-0 p-12 lg:pl-32 ">
+            <div className="md:w-full w-4/6 w-full flex flex-col md:p-0 p-12 lg:pl-24 ">
                     <div className="w-full flex flex-col lg:p-12 gap-7 ">
                         <div className="flex flex-col gap-3 pb-12 md:pb-0 ">
                             <h1>Hvem er jeg?</h1>
