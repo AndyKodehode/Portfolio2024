@@ -13,10 +13,10 @@ export default function OmMeg(){
         <div className="w-full flex flex-col  md:flex-row gap-20 md:items-start lg:items-end justify-end pt-10 relative ">
             
           <div className="lg:h-screen h-3/6 flex justify-center w-full md:w-4/6">
-            <Image className=" lg:w-2/6 w-4/6  lg:absolute lg:top-[-70px] lg:left-0 z-20 lg:h-auto object-cover" src={MegSelv}/>
+            <Image className=" lg:w-2/6 w-5/6 lg:p-0 p-4 lg:absolute lg:top-[-70px] lg:left-0 z-20 lg:h-auto object-cover" src={MegSelv}/>
           </div>
             
-            <div className="md:w-full w-4/6 w-full flex flex-col md:p-0 p-12 lg:pl-24 ">
+            <div className="md:w-full w-4/6 w-full flex flex-col md:p-0 px-12  ">
                     <div className="w-full flex flex-col lg:p-12 gap-7 ">
                         <div className="flex flex-col gap-3 pb-12 md:pb-0 ">
                             <h1>Hvem er jeg?</h1>
