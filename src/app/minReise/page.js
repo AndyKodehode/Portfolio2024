@@ -5,6 +5,7 @@ import Colloseum from "../../../public/Colloseum.jpg"
 import TipCalculator from "../../../public/TipCalculator.jpg"
 import InnsiktLav from "../../../public/InnsiktLav.png"
 import Hawii2 from "../../../public/Hawii2.png"
+import { Carousel } from "../../../components/minReiseComp/carousel"
 
 
 export default function MinReise(){
@@ -38,6 +39,8 @@ export default function MinReise(){
                     </div>
 
                 </div>
+
+                <Carousel bilde={Hawii2}/>
         </div>
     )
 }
