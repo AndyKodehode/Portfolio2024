@@ -83,3 +83,20 @@ export function ProjectHeaderTwo({bilde, dato, kunde, rolle}){
         </div>
     )
 }
+
+
+export function ProjectHeaderLogo({bilde}){
+    return(
+        <div className="w-full flex flex-col gap-20 items-center">
+                <div className="w-full lg:w-full lg:h-[80vh] h-[40vh] flex items-center justify-center bg-portfolio-primary-blue  lg:p-24">
+                    
+                            <Image
+                            src={bilde}
+                            width={500}
+                            height={500}
+                            className="w-5/6 lg:w-5/6 lg:h-full h-5/6 lg:object-cover  object-contain lg:shadow-2xl ml-4"
+                            />
+                </div>
+        </div>
+    )
+}

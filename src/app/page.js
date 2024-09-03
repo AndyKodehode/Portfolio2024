@@ -15,6 +15,7 @@ import JsSirkel from "../../public/JsSirkel.svg"
 import ReactSirkel from "../../public/ReactSirkel.svg"
 import AISirkel from "../../public/AISirkel.svg"
 import { OmMegBtn } from "../../components/navigation/buttons";
+import LogoPage from "./logo/page";
 import Link from "next/link";
 import "./globals.css";
 
@@ -36,8 +37,7 @@ export default function Home() {
                             <div className="flex flex-col items-center md:items-start lg:gap-2">
                                 <h2 className="font-light lg:text-[40px] text-[24px]">Web og mobildesign</h2>
                                 <p className="lg:text-[30] lg:pb-12 md:pb-7 p-5 md:p-0 text-center md:text-left">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
+                                Junior UX designer med erfaring fra front-end og prosjektledelse 
                                 </p>
 
                                 
@@ -75,9 +75,7 @@ export default function Home() {
 
                         <div className="text-center md:text-left">
                           <p>
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                          Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
-                          Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
+                          En oversikt over mine prosjekter fra praksisperiode i Kodeverket Bergen og fra andre prosjekter.
                           </p>
                         </div>
                   </div>
@@ -85,7 +83,7 @@ export default function Home() {
                   <div className="w-full flex flex-col items-center gap-20">
 
                     <ProjectSectionOne/>
-                    {/* <ProjectSectionTwo/> */}
+                    <ProjectSectionTwo/>
                     <ProjectSectionThree/>
 
                   </div>
@@ -98,14 +96,16 @@ export default function Home() {
             <div className="flex flex-col justify-center gap-10">
                 <div className="flex flex-col items-center w-full gap-2 p-4 md:p-0 text-center">
                   <h1>Hva kan jeg bidra med?</h1>
-                  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <p> 
+                    I løpet av mine studier og prosjekter har jeg tilegnet meg ferdigheter og erfaring i et bredt spekter av fagområder
+                  </p>
                 </div>
                 <div className="flex flex-wrap gap-20 justify-center">
-                  <BidragsKort bilde={UIikon} tittel="Ui Design"/>
-                  <BidragsKort bilde={usersRound} tittel="Prosjektledelse"/>
-                  <BidragsKort bilde={MobilIkon2} tittel="Mobil utvikling"/>
-                  <BidragsKort bilde={kodeIkon} tittel="Junior utvikling"/>
-                  <BidragsKort bilde={chrome} tittel="logo"/>
+                  <BidragsKort bilde={UIikon} tittel="Ui Design" tekst="Jeg kan holde den røde tråden, lage tidsrammer og sette opp workshops"/>
+                  <BidragsKort bilde={usersRound} tittel="Prosjektledelse" tekst="Design for både websider og apper I Figma"/>
+                  <BidragsKort bilde={MobilIkon2} tittel="Mobil utvikling" tekst="Tatt del i alle prosesser med mobilutvikling, både design og utvikling"/>
+                  <BidragsKort bilde={kodeIkon} tittel="Junior utvikling"  tekst="Har mye erfaring med HTML, CSS, JS og React/Next"/>
+                  <BidragsKort bilde={chrome} tittel="logo" tekst="Kan lage logoer og illustrasjoner i Illustrator "/>
                 </div>
             </div>
 
@@ -128,9 +128,9 @@ export default function Home() {
                       <div className="flex flex-col w-full justify-center md:gap-10  gap-4 p-7 md:p-0 md:w-10/12">
                           <div>
                                 <p className="w-11/12 md:w-full pb-2 ">
-                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                  Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
-                                  Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
+                                Jeg startet i 2019/20 med å lære med Indesign og Adobe XD.
+                                Siden den gang har jeg jobbet meg gjennom både kodekurs, bøker og diverse kurs online, i tillegg til de praktiske prosjektene. 
+
                                 </p>
                           </div>
                           <Link

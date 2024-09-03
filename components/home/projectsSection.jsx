@@ -27,9 +27,7 @@ export function ProjectSectionOne(){
            <div className="flex flex-col w-full lg:w-2/6 md:gap-2  gap-4 p-7 md:p-0">
               <h2>Fontenehus App</h2>
                 <p className="w-11/12 md:w-full lg:pb-7">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                  Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
-                  Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
+                App for Fontenehuset Bergen, hvor brukere skal kunne finne dagens plan, dagens lunsj og oversikt over turer.
                 </p>
                 <Link
                   href="/fontenehuset"
@@ -63,14 +61,12 @@ export function ProjectSectionTwo(){
          </div>
 
          <div className="flex flex-col w-full lg:w-2/6 md:gap-2  gap-4 p-7 md:p-0">
-            <h2>Kodehode</h2>
+            <h2>Logo</h2>
               <p className="w-11/12 md:w-full lg:pb-7">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
-                Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
+               Jeg har laget noen logoer for prosjekter jeg har deltatt i, her er noen av dem
               </p>
               <Link
-                  href="/kodehode"
+                  href="/logo"
                   aria-label="mer info om hvem jeg er"
                                 >
                   <SeMerBtn/>
@@ -105,9 +101,8 @@ export function ProjectSectionThree(){
          <div className="flex flex-col md:w-11/12 w-full lg:w-2/6 md:gap-2  gap-4 p-7 md:p-0">
             <h2>Hawii Analyse</h2>
               <p className="w-11/12 md:w-full lg:pb-7">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Eaque dolorem blanditiis qui illo animi eveniet saepe quidem debitis, rerum delectus repellendus. 
-                Maiores itaque cupiditate similique officiis sequi alias. Assumenda, cumque. 
+              Landingsside for Hawii analyse, et analysefirma for boligutbyggere, som viser verktøy og verdi av tjenestene for Hawii sine kunder.
+ 
               </p>
               <Link
                   href="/hawii"
