@@ -12,7 +12,7 @@ export default function MinReise(){
     return(
 
         <div className="p-12 flex flex-col gap-24 items-center ">
-                <div className="flex flex-row w-5/6 justify-center ">
+                <div className="flex flex-row w-5/6 justify-center pb-24">
                     <div className=" w-full">
                         <Image className="w-5/6" src={AnnieSprettReise}/>
                     </div>
@@ -25,7 +25,7 @@ export default function MinReise(){
                     </div>
                 </div>
 
-                <div className="flex flex-row w-full gap-24 p-4 ">
+                <div className="flex flex-row w-full gap-36 p-4 ">
                     <div className="flex flex-col items-center gap-24 w-full">
                       <YearCard bilde={Colloseum} tittel="2020" undertittel="XD, Adobe og steaming-prosjekt" tekst="Jeg startet å teste ut webdesign og UX i 2020 ved å lære meg XD, blant annet laget jeg layout for en streaming-service som et eget prosjekt "/>
                       <YearCard bilde={InnsiktLav} tittel="2022" undertittel="Fontenehuset, app og brukerundersøkelser" tekst="Som et praksisprosjekt i Kodehode begynte jeg på første utgaven for Fontenehus-appen, jeg fikk erfaring med React Native, brukertesting og innsiktsarbeid"/>
