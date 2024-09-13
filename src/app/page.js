@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ProjectSectionOne, ProjectSectionTwo, ProjectSectionThree } from "../../components/home/projectsSection";
+import { ProjectSectionOne, ProjectSectionTwo, ProjectSectionThree, ProjectSectionFour } from "../../components/home/projectsSection";
 import { BidragsKort } from "../../components/home/bidragKort";
 import chrome from "../../public/chrome.svg"
 import usersRound from "../../public/usersRound.svg"
@@ -19,6 +19,7 @@ import LogoPage from "./logo/page";
 import Link from "next/link";
 import Kelly from "../../public/kelly-sikkema.jpg"
 import "./globals.css";
+
 
 export default function Home() {
   return (
@@ -86,6 +87,7 @@ export default function Home() {
                     <ProjectSectionOne/>
                     <ProjectSectionTwo/>
                     <ProjectSectionThree/>
+                    <ProjectSectionFour/>
 
                   </div>
 

@@ -52,7 +52,7 @@ export function ProjectHeaderTwo({bilde, dato, kunde, rolle}){
                             src={bilde}
                             width={500}
                             height={500}
-                            className="w-5/6 lg:w-5/6 lg:h-full h-5/6 lg:object-cover  object-contain lg:shadow-2xl ml-4"
+                            className="w-5/6 lg:w-full lg:h-full h-5/6 lg:object-contain  object-contain  ml-4"
                             />
                 </div>
 

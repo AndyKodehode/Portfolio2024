@@ -9,6 +9,7 @@ import { ProjectBlockThree } from "../../../components/project/projectBlock"
 import KodehodePT from "../../../public/KodehodePT.png"
 import KodehodeFigma from "../../../public/KodehodeFigma.png"
 import { ProjectBlockBottom } from "../../../components/project/projectBlock"
+import deltager from "../../../public/KodehodeDeltager.png"
 
 
 
@@ -16,7 +17,7 @@ export default function Kodehode(){
     return(
         <div className="w-full flex flex-col items-center pb-20 gap-32 ">
             <div className="w-full lg:w-10/12 gap-10 md:pt-20 flex justify-center items-center ">
-                <ProjectHeaderTwo bilde={KodehodeValg} rolle="Design" dato="sep 23-aug 24" kunde="Jobloop"/>
+                <ProjectHeaderTwo bilde={deltager} rolle="Design" dato="sep 23-aug 24" kunde="Jobloop"/>
                 
             </div>
 

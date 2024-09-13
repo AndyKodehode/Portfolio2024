@@ -10,6 +10,7 @@ import Kelly from "../../public/kelly-sikkema.jpg"
 import Kodehode from "../../public/Kodehode.svg"
 import Kodeloftet from "../../public/Kodeloftet.svg"
 import LogoIbruk2 from "../../public/LogoIbruk2.png"
+import deltager from "../../public/KodehodeDeltager.png"
 
 
 export function ProjectSectionOne(){
@@ -59,7 +60,7 @@ export function ProjectSectionTwo(){
                src={LogoIbruk2}
                width={400}
                height={100}
-               className="w-full object-cover  "
+               className="w-5/6 object-contain  "
               ></Image>
              </div>
          </div>
@@ -114,6 +115,41 @@ export function ProjectSectionThree(){
                                 >
                   <SeMerBtn/>
               </Link>
+         </div>
+
+      </div>
+
+  )
+}
+
+export function ProjectSectionFour(){
+  return(
+      <div className="flex items-center w-screen lg:w-full md:w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5 ">
+         <div className="flex justify-center h-80 items-center w-screen md:w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-portfolio-primary-yellow md:rounded-md md:p-7 shadow-md">
+
+             <div className="flex justify-center  lg:w-full lg:h-5/6 w-5/6 h-5/6 md:w-4/6 md:h-5/6  ">
+              <Image 
+               alt="bilde av valg landinghero"
+               src={deltager}
+               width={400}
+               height={100}
+               className="w-5/6 object-contain  "
+              ></Image>
+             </div>
+         </div>
+
+         <div className="flex flex-col w-full lg:w-2/6 md:gap-2  gap-4 p-7 md:p-0">
+            <h2>Kodehode</h2>
+              <p className="w-11/12 md:w-full lg:pb-7">
+               Landingsside til Kodehode kurset til Jobloop
+              </p>
+              <Link
+                  href="/kodehode"
+                  aria-label="mer info om hvem jeg er"
+                                >
+                  <SeMerBtn/>
+              </Link>
+              
          </div>
 
       </div>
