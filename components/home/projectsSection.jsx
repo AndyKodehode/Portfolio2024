@@ -6,6 +6,10 @@ import Hawii2 from "../../public/Hawii2.png"
 import HawiiAvlang from "../../public/HawiiAvlang.png"
 import { SeMerBtn } from "../navigation/buttons"
 import Link from "next/link"
+import Kelly from "../../public/kelly-sikkema.jpg"
+import Kodehode from "../../public/Kodehode.svg"
+import Kodeloftet from "../../public/Kodeloftet.svg"
+import LogoIbruk2 from "../../public/LogoIbruk2.png"
 
 
 export function ProjectSectionOne(){
@@ -46,16 +50,16 @@ export function ProjectSectionOne(){
 
 export function ProjectSectionTwo(){
   return(
-      <div className="flex items-center w-screen lg:w-full md:w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5">
-         <div className="flex justify-center h-80 items-center w-screen md:w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-portfolio-primary-yellow md:rounded-md md:p-7">
+      <div className="flex items-center w-screen lg:w-full md:w-11/12 sm:w-full flex flex-col lg:flex-row lg:gap-20 gap-5 ">
+         <div className="flex justify-center h-80 items-center w-screen md:w-11/12 lg:h-80 md:w-full lg:w-3/6 bg-white md:rounded-md md:p-7 shadow-md">
 
-             <div className="flex justify-center  lg:w-5/6 lg:h-5/6 w-5/6 h-5/6 md:w-4/6 md:h-5/6 md:shadow-xl lg:shadow-xl ">
+             <div className="flex justify-center  lg:w-full lg:h-5/6 w-5/6 h-5/6 md:w-4/6 md:h-5/6  ">
               <Image 
                alt="bilde av valg landinghero"
-               src={KodehodeMain}
+               src={LogoIbruk2}
                width={400}
                height={100}
-               className="w-full h-full md:object-cover object-contain "
+               className="w-full object-cover  "
               ></Image>
              </div>
          </div>

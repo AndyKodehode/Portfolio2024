@@ -120,3 +120,51 @@ export function ProjectBlockHawii({bilde, title, text}){
         </div>
     )
 }
+
+
+export function BlockLogoOne({bilde, title, text}){
+
+    return(
+        <div className="lg:w-full md:w-full w-full h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 p-12  md:gap-28 gap-12">
+            <div className="md:w-full w-full flex flex-col">
+                <h2>{title}</h2>
+                <p>{text}</p>
+            </div>
+            <div className="flex flex-col items-center  w-5/6 h-full md:shadow-lg p-20">
+               <Image
+               src={bilde}
+               width={400}
+               height={400}
+               className="rounded-md w-4/6 h-3/6 "
+               /> 
+            </div>
+
+        </div>
+    )
+
+
+}
+
+export function BlockLogoTwo({bilde, title, text}){
+
+    return(
+        <div className="lg:w-full md:w-full w-full h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 p-12 md:gap-28  gap-12">
+            
+            <div className="flex flex-col items-center  w-5/6 h-full md:shadow-lg p-20 ">
+               <Image
+               src={bilde}
+               width={400}
+               height={400}
+               className="rounded-md w-full h-full "
+               /> 
+            </div>
+            <div className="md:w-full w-full flex flex-col">
+                <h2>{title}</h2>
+                <p>{text}</p>
+            </div>
+
+        </div>
+    )
+
+
+}

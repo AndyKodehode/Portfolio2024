@@ -17,6 +17,7 @@ import AISirkel from "../../public/AISirkel.svg"
 import { OmMegBtn } from "../../components/navigation/buttons";
 import LogoPage from "./logo/page";
 import Link from "next/link";
+import Kelly from "../../public/kelly-sikkema.jpg"
 import "./globals.css";
 
 export default function Home() {
@@ -70,12 +71,12 @@ export default function Home() {
 
                   <div className=" flex flex-col justify-center items-center md:items-start md:justify-left gap-4 w-full md:w-3/6 md:pl-10 p-7 lg:p-0 lg:pb-12">
                         <div className="text-center md:text-left ">
-                          <h1>Prosjekter</h1>
+                          <h1>Arbeid</h1>
                         </div>
 
                         <div className="text-center md:text-left">
                           <p>
-                          En oversikt over mine prosjekter fra praksisperiode i Kodeverket Bergen og fra andre prosjekter.
+                          En oversikt over mine prosjekter og arbeid fra praksisperiode i Kodeverket Bergen og fra andre prosjekter.
                           </p>
                         </div>
                   </div>
