@@ -60,7 +60,7 @@ export function ProjectSectionTwo(){
                src={LogoIbruk2}
                width={400}
                height={100}
-               className="w-5/6 object-contain  "
+               className="w-5/6 object-contain"
               ></Image>
              </div>
          </div>

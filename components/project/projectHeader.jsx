@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export function ProjectHeaderOne({bilde, dato, rolle, kunde}){
+export function ProjectHeaderOne({bilde, dato, kunde, rolle, introTekst}){
     return(
         <div className="w-full flex flex-col gap-20 items-center">
             <div className="w-full lg:w-11/12 lg:h-[80vh] flex items-center justify-center bg-portfolio-primary-blue p-24 ">
@@ -35,7 +35,7 @@ export function ProjectHeaderOne({bilde, dato, rolle, kunde}){
 
                         <div className="flex flex-col w-full gap-7">
                            <h2>Om prosjektet</h2>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ullam itaque debitis amet, nisi sit dolore enim libero nihil vel iusto fugiat minus sunt reiciendis, voluptates, cupiditate qui optio non?</p>
+                           <p>{introTekst}</p>
                         </div>
                 </div>
         </div>
