@@ -15,10 +15,15 @@ export default function Fontenehus(){
 
             <div className="w-screen flex flex-col items-center md:bg-[#CCE0FF] lg:h-[80vh] md:h-[40vh] mt-32">
                 <div className="lg:w-10/12 flex justify-center">
-                  <ProjectBlockOne bilde={test} title="Målgrupper " 
-                  text="Appen er laget for de som allerede er medlem av huset og som derfor har kjennskap til hvordan huset fungerer. Dette valget innebærer at vi valgte bort å legge mye informasjon om huset i appen. og heller gi detaljert info om hva som skjer og til hvilken tid. 
-                  Etterhvert håper vi at den skal kunne bli mer interaktiv i den forstand at brukerne skal kunne bestille lunsj, kaffe og legge inn forslag. Tanken bak appen er å nå medlemmer som ikke klarer å komme seg på huset.
-                  Medlemstall har økt, men det betyr utfordringer i å nå alle medlemmene. Vi ønsker at informasjon skal komme ut til alle medlemmer på huset og en app vil kunne gi rask og riktig informasjon, som forhåpentligvis kan motivere og inspirere medlemmene til å bruke huset mer
+                  <ProjectBlockOne bilde={test} title="Målgruppe" 
+                  textPartOne="Appen er laget for de som allerede er medlem av huset og som derfor har kjennskap til hvordan huset fungerer. 
+                  Dette valget innebærer at vi valgte bort å legge mye informasjon om huset i appen. og heller gi detaljert info om hva som skjer og til hvilken tid. 
+                  Etterhvert håper vi at den skal kunne bli mer interaktiv i den forstand at brukerne skal kunne bestille lunsj, kaffe og legge inn forslag." 
+                  
+                  textPartTwo="Tanken bak appen er å nå medlemmer som ikke klarer å komme seg på huset.
+                  Medlemstall har økt, men det betyr utfordringer i å nå alle medlemmene."
+                  
+                  textPartThree="Vi ønsker at informasjon skal komme ut til alle medlemmer på huset og en app vil kunne gi rask og riktig informasjon, som forhåpentligvis kan motivere og inspirere medlemmene til å bruke huset mer.
                   I tillegg til dette ønsket vi å gi deltagere som har fullført Kodeloftet kurset en arena og et prosjekt hvor de kan jobbe videre med den kunnskapen de har og lære seg nye ting
                   Målet har også vært å inkludere huset så mye som mulig i prosessen slik at de får eierskap til appen og det føles som et produkt laget av huset."/>
                 </div>

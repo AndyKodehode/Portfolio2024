@@ -1,12 +1,17 @@
 import Image from "next/image"
 
 
-export function ProjectBlockOne({bilde, title, text}){
+export function ProjectBlockOne({bilde, title, textPartOne, textPartTwo, textPartThree}){
     return(
         <div className="lg:w-full md:w-full w-full h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 p-12  md:gap-16 gap-12">
             <div className="md:w-3/6 w-full flex flex-col">
                 <h2>{title}</h2>
-                <p>{text}</p>
+                <p>{textPartOne}</p>
+                <br/>
+                <p>{textPartTwo}</p>
+                <br/>
+                <p>{textPartThree}</p>
+                <br/>
             </div>
             <div className="md:w-4/6 w-full h-full ">
                <Image
@@ -48,7 +53,7 @@ export function ProjectBlockThree({bilde, title, text}){
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>
-            <div className="md:w-4/6 w-full">
+            <div className="md:w-3/6 w-full">
                <Image
                src={bilde}
                width={400}
