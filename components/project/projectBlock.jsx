@@ -58,7 +58,7 @@ export function ProjectBlockThree({bilde, title, text}){
                src={bilde}
                width={400}
                height={400}
-               className="rounded-md w-full md:shadow-lg"
+               className="rounded-md w-full h-5/6 object-contain"
                /> 
             </div>
 
@@ -66,7 +66,7 @@ export function ProjectBlockThree({bilde, title, text}){
     )
 }
 
-export function ProjectBlockBottom({bilde, title, text}){
+export function ProjectBlockBottom({bilde, title, textOne, textTwo, textThree, headerOne, headerTwo, headerThree}){
     return(
 
                  <div className="lg:w-full flex lg:flex-row flex-col md:items-start items-center gap-12">
@@ -79,7 +79,7 @@ export function ProjectBlockBottom({bilde, title, text}){
                             /> 
                         </div>
                         <div className="flex flex-row md:w-5/6 w-full gap-7">
-                                <div className="flex flex-col md:gap-20 gap-36 ">
+                                <div className="flex flex-col md:gap-34 gap-36 pb-7 ">
                                     <h2>1</h2>
                                     <h2>2</h2>
                                     <h2>3</h2>
@@ -87,16 +87,16 @@ export function ProjectBlockBottom({bilde, title, text}){
 
                                 <div className="flex flex-col md:gap-10 gap-8 ">
                                     <div className="flex flex-col">
-                                        <h3></h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit similique error est quasi aut expedita laboriosam. Eveniet alias blanditiis, nulla quos dolores sequi dicta aspernatur, cupiditate sint aliquid nostrum. Deserunt!</p>
+                                        <h3>{headerOne}</h3>
+                                        <p>{textOne}</p>
                                     </div>
                                     <div className="flex flex-col">
-                                        <h3></h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit similique error est quasi aut expedita laboriosam. Eveniet alias blanditiis, nulla quos dolores sequi dicta aspernatur, cupiditate sint aliquid nostrum. Deserunt!</p>
+                                        <h3>{headerTwo}</h3>
+                                        <p>{textTwo}</p>
                                     </div>
                                     <div className="flex flex-col">
-                                        <h3></h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit similique error est quasi aut expedita laboriosam. Eveniet alias blanditiis, nulla quos dolores sequi dicta aspernatur, cupiditate sint aliquid nostrum. Deserunt!</p>
+                                        <h3>{headerThree}</h3>
+                                        <p>{textThree}</p>
                                     </div>
                                 </div>
                             
