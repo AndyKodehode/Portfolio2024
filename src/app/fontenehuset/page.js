@@ -6,6 +6,8 @@ import IgangIgjen from "../../../public/IgangIgjen.jpg"
 import { ProjectBlockBottom, ProjectBlockOne, ProjectBlockTwo, ProjectBlockThree } from "../../../components/project/projectBlock"
 import AppFigma from "../../../public/AppFigma.png"
 import AppW from "../../../public/AppW.jpg"
+import AppNav3 from "../../../public/AppNav3.png"
+import målgruppe from "../../../public/målgruppe2.jpg"
 
 
 export default function Fontenehus(){
@@ -15,9 +17,9 @@ export default function Fontenehus(){
                 <ProjectHeaderOne bilde={AppMockUp} introTekst="Arbeided med appen startet i 2021, som et praksisprosjekt i Kodehode utviklerkurset som jeg tok. Så ble det lagt på hyllen før vi tok det opp igjen i 2023 som et samarbeid med Kodeverket og Fontenehuset sitt eget kodekurs, Kodeloftet."/>
             </div>
 
-            <div className="w-screen flex flex-col items-center md:bg-[#CCE0FF] lg:h-[80vh] md:h-[40vh] mt-32">
+            <div className="w-screen flex flex-col items-center md:bg-[#CCE0FF] lg:h-[90vh] md:h-[40vh] mt-32">
                 <div className="lg:w-10/12 flex justify-center">
-                  <ProjectBlockOne bilde={test} title="Målgruppe" 
+                  <ProjectBlockOne bilde={målgruppe} title="Målgruppe" 
                   textPartOne="Appen er laget for de som allerede er medlem av huset og som derfor har kjennskap til hvordan huset fungerer. 
                   Dette valget innebærer at vi valgte bort å legge mye informasjon om huset i appen. og heller gi detaljert info om hva som skjer og til hvilken tid. 
                   Etterhvert håper vi at den skal kunne bli mer interaktiv i den forstand at brukerne skal kunne bestille lunsj, kaffe og legge inn forslag." 
@@ -39,7 +41,7 @@ export default function Fontenehus(){
                     </div>
                     <div className="lg:w-full flex flex-col items-center">
                         <ProjectBlockTwo bilde={IgangIgjen} title="Informasjon" text="I første omgang måtte vi gi informasjon til kodekurset sine medlemmer, for å se om vi kunne fange interessen. Målet var som sagt at vi klarer å involvere alle på huset, det måtte derfor igjennom flere informasjonsrunder for å være sikker på at alle skjønner hva det går ut på. Appen skal også oppdateres med innhold så det er viktig at folk forstår hva det betyr."/>
-                        <ProjectBlockTwo bilde={test} title="Tester" text="Ogaå her ønsket jeg at vi skulle involvere medlemmene. Vi satta opp workshop hvor kombinere læring av brukertesting som metode med testing av selve appen. Denne prosessen gjorde vi 2 ganger, med endringer i design mellom hver gang. I tillegg kjørte vi enkelte tester av designet og brukervennligheten etter dette. "/>
+                        <ProjectBlockTwo bilde={test} title="Tester" text="Her også ønsket jeg at vi skulle involvere medlemmene. Vi satte opp workshops hvor kombinere læring av brukertesting som metode med testing av selve appen. Denne prosessen gjorde vi 2 ganger, med endringer i design mellom hver gang. I tillegg kjørte vi enkelte tester av designet og brukervennligheten etter dette. "/>
                     </div>
                 </div>
 
@@ -62,7 +64,7 @@ export default function Fontenehus(){
                         <p className="text-center md:text-left">Underveis har vi møtte på en del utfordringer som jeg håper og tror jeg har lært mye av. </p>
                     </div>
                     <ProjectBlockBottom 
-                    bilde={test}
+                    bilde={AppNav3}
                     headerOne="Navigasjon, plassering og valg"
                     textOne="Vi jobbet med mange måter å navigere seg gjennom appen på.
                     Vi fant til slutt ut at vi ikke burde ligge det bak for mange klikk og at det ble forvirrende for folk å vite hvor de skulle finne ting.

@@ -3,8 +3,8 @@ import Image from "next/image"
 
 export function ProjectBlockOne({bilde, title, textPartOne, textPartTwo, textPartThree}){
     return(
-        <div className="lg:w-full md:w-full w-full h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 p-12  md:gap-16 gap-12">
-            <div className="md:w-3/6 w-full flex flex-col">
+        <div className="lg:w-full md:w-full w-full h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 p-12  md:gap-32 gap-12">
+            <div className="md:w-full w-full flex flex-col gap-4">
                 <h2>{title}</h2>
                 <p>{textPartOne}</p>
                 <br/>
@@ -13,12 +13,12 @@ export function ProjectBlockOne({bilde, title, textPartOne, textPartTwo, textPar
                 <p>{textPartThree}</p>
                 <br/>
             </div>
-            <div className="md:w-4/6 w-full h-full ">
+            <div className="md:w-5/6 w-full h-full ">
                <Image
                src={bilde}
                width={400}
                height={400}
-               className="rounded-md w-full h-full md:shadow-lg object-cover"
+               className="rounded-md w-5/6 md:shadow-lg object-cover"
                /> 
             </div>
 
