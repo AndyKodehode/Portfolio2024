@@ -8,6 +8,7 @@ import Hawii2 from "../../../public/Hawii2.png"
 import { Carousel } from "../../../components/minReiseComp/carousel"
 
 
+
 export default function MinReise(){
     return(
 
