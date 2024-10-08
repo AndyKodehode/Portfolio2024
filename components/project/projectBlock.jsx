@@ -111,7 +111,7 @@ export function ProjectBlockHawii({bilde, title, text}){
         <div className="lg:w-full h-full flex flex-row p-12">
             <div className="w-3/6 flex flex-col">
                 <h2>{title}</h2>
-                <p>{text}</p>
+                <p className="lg:text-start text-center">{text}</p>
             </div>
             <div className="w-3/6 h-full overflow-hidden">
                <Image
@@ -130,12 +130,12 @@ export function ProjectBlockHawii({bilde, title, text}){
 export function BlockLogoOne({bilde, title, text}){
 
     return(
-        <div className="lg:w-full md:w-full w-full h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 p-12  md:gap-28 gap-12">
-            <div className="md:w-full w-full flex flex-col">
+        <div className="w-full h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 p-12  md:gap-28 gap-12">
+            <div className="md:w-full w-full flex items-center flex-col lg:items-start gap-4">
                 <h2>{title}</h2>
-                <p>{text}</p>
+                <p className="lg:text-start text-center">{text}</p>
             </div>
-            <div className="flex flex-col items-center  w-5/6 h-full md:shadow-lg p-20">
+            <div className="flex flex-col items-center w-full  lg:w-5/6 h-full shadow-lg p-20">
                <Image
                src={bilde}
                width={400}
@@ -153,9 +153,9 @@ export function BlockLogoOne({bilde, title, text}){
 export function BlockLogoTwo({bilde, title, text}){
 
     return(
-        <div className="lg:w-full md:w-full w-full h-full flex md:flex-row flex-col lg:items-start items-center lg:p-12 p-12 md:gap-28  gap-12">
+        <div className="w-full h-full flex md:flex-row flex-col-reverse lg:items-start items-center justify-center lg:p-12 p-12 md:gap-28  gap-12">
             
-            <div className="flex flex-col items-center  w-5/6 h-full md:shadow-lg p-20 ">
+            <div className="flex flex-col items-center  lg:w-5/6 h-full shadow-lg p-20 ">
                <Image
                src={bilde}
                width={400}
@@ -163,9 +163,9 @@ export function BlockLogoTwo({bilde, title, text}){
                className="rounded-md w-full h-full "
                /> 
             </div>
-            <div className="md:w-full w-full flex flex-col">
+            <div className="md:w-full w-full flex flex-col lg:items-start items-center gap-4">
                 <h2>{title}</h2>
-                <p>{text}</p>
+                <p className="lg:text-start text-center">{text}</p>
             </div>
 
         </div>
