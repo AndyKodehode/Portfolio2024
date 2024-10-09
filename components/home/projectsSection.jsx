@@ -1,16 +1,10 @@
 import Image from "next/image"
-import AppMockUp from "../../public/AppMockUp.png"
-import KodehodeMain from "../../public/KodehodeMain.png"
-import KodehodeValg from "../../public/KodehodeValg.png"
-import Hawii2 from "../../public/Hawii2.png"
-import HawiiAvlang from "../../public/HawiiAvlang.png"
+import AppMockUp from "/public/AppMockUp.png"
+import Hawii2 from "/public/Hawii2.png"
 import { SeMerBtn } from "../navigation/buttons"
 import Link from "next/link"
-import Kelly from "../../public/kelly-sikkema.jpg"
-import Kodehode from "../../public/Kodehode.svg"
-import Kodeloftet from "../../public/Kodeloftet.svg"
-import LogoIbruk2 from "../../public/LogoIbruk2.png"
-import deltager from "../../public/KodehodeDeltager.png"
+import LogoIbruk2 from "/public/LogoIbruk2.png"
+import deltager from "/public/KodehodeDeltager.png"
 
 
 export function ProjectSectionOne(){
