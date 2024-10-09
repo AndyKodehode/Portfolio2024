@@ -1,23 +1,21 @@
 import Image from "next/image";
 import { ProjectSectionOne, ProjectSectionTwo, ProjectSectionThree, ProjectSectionFour } from "../../components/home/projectsSection";
 import { BidragsKort } from "../../components/home/bidragKort";
-import chrome from "../../public/chrome.svg"
-import usersRound from "../../public/usersRound.svg"
-import UIikon from "../../public/UIikon.svg"
-import MegCrop5 from "../../public/MegCrop5.jpg"
-import MobileIcon from "../../public/MobileIcon.svg"
-import kodeIkon from "../../public/kodeIkon.svg"
-import Colloseum from "../../public/Colloseum.jpg"
-import MobilIkon2 from "../../public/MobilIkon2.svg"
+import chrome from "/public/chrome.svg"
+import usersRound from "/public/usersRound.svg"
+import UIikon from "/public/UIikon.svg"
+import MegCrop5 from "/public/MegCrop5.jpg"
+import MobileIcon from "/public/MobileIcon.svg"
+import kodeIkon from "/public/kodeIkon.svg"
+import Colloseum from "/public/Colloseum.jpg"
+import MobilIkon2 from "/public/MobilIkon2.svg"
 import { SeMerBtn } from "../../components/navigation/buttons";
-import FigmaSirkel from "../../public/FigmaSirkel.svg"
-import JsSirkel from "../../public/JsSirkel.svg"
-import ReactSirkel from "../../public/ReactSirkel.svg"
-import AISirkel from "../../public/AISirkel.svg"
+import FigmaSirkel from "/public/FigmaSirkel.svg"
+import JsSirkel from "/public/JsSirkel.svg"
+import ReactSirkel from "/public/ReactSirkel.svg"
+import AISirkel from "/public/AISirkel.svg"
 import { OmMegBtn } from "../../components/navigation/buttons";
-import LogoPage from "./logo/page";
 import Link from "next/link";
-import Kelly from "../../public/kelly-sikkema.jpg"
 import "./globals.css";
 
 
