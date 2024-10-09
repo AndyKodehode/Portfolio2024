@@ -13,11 +13,11 @@ export default function MinReise(){
     return(
 
         <div className="p-12 flex flex-col gap-24 items-center">
-                <div className="flex lg:flex-row flex-col lg:w-5/6 w-full justify-center items-center pb-24 gap-12">
+                <div className="flex lg:flex-row flex-col lg:w-5/6 w-full justify-center items-center  pb-24 gap-12">
                     <div className=" w-full">
                         <Image className="lg:w-5/6" src={AnnieSprettReise}/>
                     </div>
-                    <div className=" w-3/6 flex flex-col items-center gap-12">
+                    <div className=" w-3/6 flex flex-col lg:items-start items-center gap-12">
                         <h1>Min reise</h1>
                         <p className="text-center lg:text-start">
                             Gjennom 4 år har jeg jobbet for å utvikle meg både som designer og utvikler.
