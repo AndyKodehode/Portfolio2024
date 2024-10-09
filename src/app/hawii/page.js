@@ -18,7 +18,7 @@ export default function Hawii(){
 
             <div className="lg:w-screen flex flex-col items-center md:bg-[#CCE0FF] lg:h-[80vh] mt-32">
                 <div className="lg:w-10/12">
-                  <ProjectBlockHawii bilde={HawiiMaal} title="Målgruppe " text="Her kommer noe tekst som er relevant"/>
+                  <ProjectBlockHawii bilde={HawiiMaal} title="Målgruppe " text="Hawii lager analyse og statistikk for utbyggere slik at de kan gjøre vurderinger av hvilke områder de skal kjøpe opp"/>
                 </div>
             </div>
             
@@ -26,11 +26,11 @@ export default function Hawii(){
                 <div className="w-full flex flex-col">
                     <div className="w-full flex flex-col items-left p-12 pl-14">
                         <h2 className="text-[46px]  text-center md:text-left">Prosess</h2>
-                        <p className="text-center md:text-left">her kommer noe tekst om prosessen</p>
+                        <p className="text-center md:text-left">Her er en oversikt over prosessen</p>
                     </div>
                     <div className="w-full flex flex-col items-center">
-                        <ProjectBlockTwo bilde={HawiiFirstDesign} title="Påbegynt design" text="Her kommer noe tekst som er relevant"/>
-                        <ProjectBlockTwo bilde={HawiiFigma} title="Design og utprøving" text="Her kommer noe tekst som er relevant"/>
+                        <ProjectBlockTwo bilde={HawiiFirstDesign} title="Påbegynt design" text="Før jeg kom inn i prosjektet så hadde de begynt på en designfil med noe oppsett så jeg måtte prøve å sette meg inn i hva de hadde tenkt"/>
+                        <ProjectBlockTwo bilde={HawiiFigma} title="Design og utprøving" text=""/>
                     </div>
                 </div>
 
