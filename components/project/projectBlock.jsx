@@ -79,11 +79,11 @@ export function ProjectBlockBottom({bilde, title, textOne, textTwo, textThree, h
                             /> 
                         </div>
                         <div className="flex flex-row md:w-5/6 w-full gap-7">
-                                <div className="flex flex-col md:gap-34 gap-36 pb-7 ">
+                                {/* <div className="flex flex-col md:gap-32 gap-36 pb-7 ">
                                     <h2>1</h2>
                                     <h2>2</h2>
                                     <h2>3</h2>
-                                </div>
+                                </div> */}
 
                                 <div className="flex flex-col md:gap-10 gap-8 ">
                                     <div className="flex flex-col">
