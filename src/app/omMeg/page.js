@@ -1,9 +1,9 @@
 import Image from "next/image"
-import MegSelv from "../../../public/MegSelv.jpg"
-import Lys from "../../../public/Lys.svg"
-import Target from "../../../public/Target.svg"
-import Briller from "../../../public/Briller.svg"
-import Books from "../../../public/Books.svg"
+import MegSelv from "/public/MegSelv.jpg"
+import Lys from "/public/Lys.svg"
+import Target from "/public/Target.svg"
+import Briller from "/public/Briller.svg"
+import Books from "/public/Books.svg"
 import AnnieSprattReise from "../../../public/AnnieSprattReise.jpg"
 
 

@@ -1,10 +1,10 @@
 import Image from "next/image"
 import AnnieSprettReise from "../../../public/AnnieSprattReise.jpg"
 import { YearCard } from "../../../components/minReiseComp/yearSection"
-import Colloseum from "../../../public/Colloseum.jpg"
-import TipCalculator from "../../../public/TipCalculator.jpg"
-import InnsiktLav from "../../../public/InnsiktLav.png"
-import Hawii2 from "../../../public/Hawii2.png"
+import Colloseum from "/public/Colloseum.jpg"
+import TipCalculator from "/public/TipCalculator.jpg"
+import InnsiktLav from "/public/InnsiktLav.png"
+import Hawii2 from "/public/Hawii2.png"
 import { Carousel } from "../../../components/minReiseComp/carousel"
 
 

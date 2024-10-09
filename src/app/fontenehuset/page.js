@@ -1,13 +1,13 @@
 import { ProjectHeaderOne } from "../../../components/project/projectHeader"
-import AppMockUp from "../../../public/AppMockUp.png"
-import test from "../../../public/test.jpg"
+import AppMockUp from "/public/AppMockUp.png"
+import test from "/public/test.jpg"
 import AppPresentasjon from "../../../public/AppPresentasjon.jpg"
-import IgangIgjen from "../../../public/IgangIgjen.jpg"
+import IgangIgjen from "/public/IgangIgjen.jpg"
 import { ProjectBlockBottom, ProjectBlockOne, ProjectBlockTwo, ProjectBlockThree } from "../../../components/project/projectBlock"
-import AppFigma from "../../../public/AppFigma.png"
-import AppW from "../../../public/AppW.jpg"
-import AppNav3 from "../../../public/AppNav3.png"
-import målgruppe from "../../../public/målgruppe2.jpg"
+import AppFigma from "/public/AppFigma.png"
+import AppW from "/public/AppW.jpg"
+import AppNav3 from "/public/AppNav3.png"
+import målgruppe from "/public/målgruppe2.jpg"
 
 
 export default function Fontenehus(){

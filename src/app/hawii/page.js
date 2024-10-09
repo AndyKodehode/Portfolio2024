@@ -1,13 +1,13 @@
 import { ProjectHeaderTwo } from "../../../components/project/projectHeader"
-import HawiiVT from "../../../public/HawiiVT.PNG"
+import HawiiVT from "/public/HawiiVT.png"
 import { ProjectBlockBottom, ProjectBlockOne, ProjectBlockTwo, ProjectBlockThree, ProjectBlockHawii } from "../../../components/project/projectBlock"
 import test from "../../../public/test.jpg"
-import HawiiMaal from "../../../public/HawiiMaal.jpg"
-import HawiiFirstDesign from "../../../public/HawiiFirstDesign.png"
-import HawiiFigma from "../../../public/HawiiFigma.png"
-import kunde from "../../../public/kunde.jpg"
-import samarbeid from "../../../public/samarbeid.jpg"
-import HawiiDesign from "../../../public/HawiiDesign.png"
+import HawiiMaal from "/public/HawiiMaal.jpg"
+import HawiiFirstDesign from "/public/HawiiFirstDesign.png"
+import HawiiFigma from "/public/HawiiFigma.png"
+import kunde from "/public/kunde.jpg"
+import samarbeid from "/public/samarbeid.jpg"
+import HawiiDesign from "/public/HawiiDesign.png"
 
 export default function Hawii(){
     return(
