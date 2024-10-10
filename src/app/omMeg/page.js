@@ -14,7 +14,7 @@ export default function OmMeg(){
         <div className="w-full flex flex-col  md:flex-row gap-20 md:items-start lg:items-end justify-end pt-10 relative ">
             
           <div className="lg:h-screen h-3/6 flex justify-center w-full md:w-4/6">
-            <Image className=" lg:w-2/6 w-5/6 lg:p-0 p-4 lg:absolute lg:top-[-70px] lg:left-0 z-20 lg:h-auto object-cover" src={MegSelv}/>
+            <Image className=" lg:w-2/6 w-5/6 lg:p-0 p-4 lg:absolute lg:top-[-70px] lg:left-0 lg:z-20 z-0 lg:h-auto object-cover" src={MegSelv}/>
           </div>
             
             <div className="md:w-full w-4/6 w-full flex flex-col md:p-0 px-12  ">
