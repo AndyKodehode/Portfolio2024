@@ -3,7 +3,7 @@
 
 export function SeMerBtn(){
     return(
-        <div className="w-28 rounded-3xl border-solid border-2 flex justify-center p-1 border-[#777474]  hover:bg-portfolio-primary-blue ">
+        <div className="w-28 rounded-3xl text-[#2B3F55]  flex justify-center p-2 border-[#2B3F55] border-2  bg-white shadow-sm hover:bg-[#3D5876] hover:text-white transition duration-300 ease-in-out">
             <p>Se Mer</p>
         </div>
     )
@@ -11,7 +11,7 @@ export function SeMerBtn(){
 
 export function OmMegBtn(){
     return(
-        <div className="w-36 rounded-3xl border-solid border-2 border-black flex justify-center p-1 border-[#777474]  hover:bg-portfolio-primary-blue">
+        <div className="w-36 rounded-3xl text-[#2B3F55]  flex justify-center p-2 border-[#2B3F55] border-2  bg-white shadow-sm hover:bg-[#3D5876] hover:text-white transition duration-300 ease-in-out">
             <p>Se Mer</p>
         </div>
     )
