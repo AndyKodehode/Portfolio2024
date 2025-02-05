@@ -13,12 +13,12 @@ export default function Hawii(){
     return(
         <div className="w-full flex flex-col items-center pb-20">
             <div className="w-full lg:w-10/12 gap-10 md:pt-20 flex justify-center">
-                <ProjectHeaderTwo bilde={HawiiVT}/>
+                <ProjectHeaderTwo dato='02.2023- 06.2023' kunde='Hawii' rolle='design' bilde={HawiiVT} introTekst= "Dette var et prosjekt for et firma som heter Hawii. De lager analyse og statistikk for utbyggere slik at de kan gjøre vurderinger av hvilke områder de skal kjøpe opp" />
             </div>
 
             <div className="lg:w-screen flex flex-col items-center md:bg-[#CCE0FF] lg:h-[80vh] mt-32">
                 <div className="lg:w-10/12">
-                  <ProjectBlockHawii bilde={HawiiMaal} title="Målgruppe " text="Hawii lager analyse og statistikk for utbyggere slik at de kan gjøre vurderinger av hvilke områder de skal kjøpe opp"/>
+                  <ProjectBlockHawii bilde={HawiiMaal} title="Målgruppe " text="Målgruppen er utbyggere og hensikten med siden er at Hawii får utbyggere til å ta kontakt for å bestille analyseverktøy eller bare melde seg opp til nyhetsbrev"/>
                 </div>
             </div>
             
@@ -30,7 +30,8 @@ export default function Hawii(){
                     </div>
                     <div className="w-full flex flex-col items-center">
                         <ProjectBlockTwo bilde={HawiiFirstDesign} title="Påbegynt design" text="Før jeg kom inn i prosjektet så hadde de begynt på en designfil med noe oppsett så jeg måtte prøve å sette meg inn i hva de hadde tenkt"/>
-                        <ProjectBlockTwo bilde={HawiiFigma} title="Design og utprøving" text=""/>
+                        <ProjectBlockTwo bilde={HawiiFigma} title="Design og utprøving" text="Jeg lagde forskjellige utkast i FIgma til de ulike delene av designet som ble delt med resten av teamet og som vi viste for kunden når vi var enige. 
+                        Det var et prosjekt med veldig mye utprøving med layout, bilder og farger. I ettertid kan det hende at prosjektet skulle hatt mer struktur i designprosessen, med wireframe og design-system.  "/>
                     </div>
                 </div>
 
