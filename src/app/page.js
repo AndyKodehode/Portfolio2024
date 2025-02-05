@@ -102,8 +102,8 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-20 justify-center">
-                  <BidragsKort bilde={UIikon} tittel="Ui Design" tekst="Jeg kan holde den røde tråden, lage tidsrammer og sette opp workshops"/>
-                  <BidragsKort bilde={usersRound} tittel="Prosjektledelse" tekst="Design for både websider og apper I Figma"/>
+                  <BidragsKort bilde={UIikon} tittel="Ui Design" tekst="Design for både websider og apper I Figma"/>
+                  <BidragsKort bilde={usersRound} tittel="Prosjektledelse" tekst="Jeg kan holde den røde tråden, lage tidsrammer og sette opp workshops"/>
                   <BidragsKort bilde={MobilIkon2} tittel="Mobil utvikling" tekst="Tatt del i alle prosesser med mobilutvikling, både design og utvikling"/>
                   <BidragsKort bilde={kodeIkon} tittel="Junior utvikling"  tekst="Har mye erfaring med HTML, CSS, JS og React/Next"/>
                   <BidragsKort bilde={chrome} tittel="logo" tekst="Kan lage logoer og illustrasjoner i Illustrator "/>
