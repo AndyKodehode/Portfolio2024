@@ -15,8 +15,10 @@ import JsSirkel from "/public/JsSirkel.svg"
 import ReactSirkel from "/public/ReactSirkel.svg"
 import AISirkel from "/public/AISirkel.svg"
 import { OmMegBtn } from "../../components/navigation/buttons";
+import { Programme } from "../../components/home/programmes";
 import Link from "next/link";
 import "./globals.css";
+
 
 
 export default function Home() {
@@ -83,9 +85,9 @@ export default function Home() {
                   <div className="w-full flex flex-col items-center gap-20">
 
                     <ProjectSectionOne/>
-                    <ProjectSectionTwo/>
-                    <ProjectSectionThree/>
                     <ProjectSectionFour/>
+                    <ProjectSectionTwo/>
+                    
 
                   </div>
 
@@ -109,6 +111,17 @@ export default function Home() {
                   <BidragsKort bilde={chrome} tittel="logo" tekst="Kan lage logoer og illustrasjoner i Illustrator "/>
                 </div>
             </div>
+
+            <div className="flex flex-col gap-16">
+                <h1 className="text-center">Programmer jeg kan</h1>
+                  <div className="w-full flex flex-wrap lg:flex-row justify-center gap-10">
+                    <Programme image={FigmaSirkel} title='Figma' />
+                    <Programme image={JsSirkel} title='Javascript'/>
+                    <Programme image={ReactSirkel} title='React'/>
+                    <Programme image={AISirkel} title='Illustrator'/>
+                  
+                  </div>
+             </div>
 
             <div className="w-screen md:w-full flex flex-col gap-10">
                <h1 className="text-center">Min reise</h1>
@@ -149,70 +162,7 @@ export default function Home() {
                  
             </div>
 
-            <div className="flex flex-col gap-16">
-                <h1 className="text-center">Programmer jeg kan</h1>
-                  <div className="w-full flex flex-wrap lg:flex-row justify-center gap-10">
-                      <div className="w-40 flex flex-col gap-4 items-center">
-                          <div>
-                                    <Image 
-                                        alt="bilde av valg for brukeren"
-                                        src={FigmaSirkel}
-                                        width={100}
-                                        height={100}
-                                      ></Image>
-                                
-                         </div>
-                          <div>
-                             <h4>Figma</h4>
-                          </div>
-                      </div>
-
-                      <div className=" w-40 flex flex-col gap-4 items-center ">
-                        <div>
-                                      <Image 
-                                          alt="bilde av valg for brukeren"
-                                          src={JsSirkel}
-                                          width={100}
-                                          height={100}
-                                        ></Image>
-                                  
-                          </div>
-                        <div>
-                          <h4>Javascript</h4>
-                        </div>
-                      </div>
-
-                      <div className="w-40 flex flex-col gap-4 items-center">
-                          <div>
-                                    <Image 
-                                            alt="bilde av valg for brukeren"
-                                            src={ReactSirkel}
-                                            width={100}
-                                            height={100}
-                                    ></Image>
-                                    
-                            </div>
-                        <div>
-                          <h4>React</h4>
-                        </div>
-                      </div>
-
-                      <div className="w-40 flex flex-col gap-4 items-center">
-                           <div>
-                                    <Image 
-                                        alt="bilde av valg for brukeren"
-                                        src={AISirkel}
-                                        width={100}
-                                        height={100}
-                                      ></Image>
-                                
-                           </div>
-                        <div>
-                           <h4>Illustrator</h4>
-                        </div>
-                      </div>
-                  </div>
-             </div>
+        
 
       </div>
     
