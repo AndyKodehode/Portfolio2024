@@ -83,8 +83,8 @@ export function ProjectHeaderTwo({bilde, dato, kunde, rolle, introTekstEn, intro
                            <p>{introTekstEn}</p>
                            <br/>
                            <p>{introTekstTo}</p>
-                           <Link target="_blank" href={link}>{linkText}</Link>
-                        </div>
+                           <Link className="underline" target="_blank" href={link}>{linkText}</Link>
+                        </div> 
                 </div>
         </div>
     )
