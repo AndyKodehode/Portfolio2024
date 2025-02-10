@@ -15,7 +15,7 @@ export default function Kodehode(){
     return(
         <div className="w-full flex flex-col items-center pb-20 gap-32 ">
             <div className="w-full lg:w-10/12 gap-10 md:pt-20 flex justify-center items-center ">
-                <ProjectHeaderTwo bilde={deltager} rolle="Design" dato="sep 23-aug 24" kunde="Jobloop"/>
+                <ProjectHeaderTwo bilde={deltager} rolle="Design" dato="sep 23-aug 24" kunde="Jobloop" introTekstEn='Dette er et oppdrag som Kodeverket fikk fra Jobloop for å bygge en ny nettside for Kodehode' link="https://www.kodehode.no/" linkText='Kodehode.no'/>
                 
             </div>
 

@@ -9,6 +9,7 @@ import kunde from "/public/kunde.jpg"
 import samarbeid from "/public/samarbeid.jpg"
 import HawiiDesign from "/public/HawiiDesign.png"
 
+
 export default function Hawii(){
     return(
         <div className="w-full flex flex-col items-center pb-20">
@@ -50,6 +51,8 @@ export default function Hawii(){
                     </div>
                     <ProjectBlockBottom bilde={HawiiDesign}/>
             </div>
+
+           
         </div>
     )
 }

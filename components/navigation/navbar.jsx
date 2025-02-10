@@ -13,7 +13,7 @@ export function NavBar({hamfill}){
 
              
 
-              <div className="w-20 h-5 ">
+              <div className="w-20 h-5 text-center ">
                 <Link
                   href="/"
                   aria-label="link til hjem"
@@ -23,23 +23,26 @@ export function NavBar({hamfill}){
                 </Link>
               </div>
 
-              <div className="w-20 h-5 ">
-                <Link
-                  href="/kontakt"
-                  aria-label="link til kontaktsiden"
-                  
-                >
-                  Kontakt
-                </Link>
-              </div>
+         
 
-              <div className="w-20 h-5 ">
+              <div className="w-20 h-5 text-center">
                  <Link
                   href="/omMeg"
                   aria-label="link til siden om meg"
                   
                   >
                   Om meg
+                </Link>
+              </div>
+
+              <div className="w-20 h-5 text-center ">
+                 <Link
+                  target="_blank" 
+                  href="https://github.com/AndyKodehode"
+                  aria-label="link til gitHub"
+                  
+                  >
+                  GitHub
                 </Link>
               </div>
           </div>
@@ -51,3 +54,13 @@ export function NavBar({hamfill}){
         </div>
     )
 }
+
+    /* <div className="w-20 h-5 ">
+                <Link
+                  href="/kontakt"
+                  aria-label="link til kontaktsiden"
+                  
+                >
+                  Kontakt
+                </Link>
+              </div> */
