@@ -11,7 +11,9 @@ import HawiiDesign from "/public/HawiiDesign.png"
 
 
 export default function Hawii(){
+     /*
     return(
+       
         <div className="w-full flex flex-col items-center pb-20">
             <div className="w-full lg:w-10/12 gap-10 md:pt-20 flex justify-center">
                 <ProjectHeaderTwo dato='02.2023- 06.2023' kunde='Hawii' rolle='design' bilde={HawiiVT} introTekst= "Dette var et prosjekt for et firma som heter Hawii. De lager analyse og statistikk for utbyggere slik at de kan gjøre vurderinger av hvilke områder de skal kjøpe opp" />
@@ -54,5 +56,8 @@ export default function Hawii(){
 
            
         </div>
+      
     )
+
+      */
 }
