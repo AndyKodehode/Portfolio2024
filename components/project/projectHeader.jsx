@@ -46,7 +46,7 @@ export function ProjectHeaderOne({bilde, dato, kunde, rolle, introTekstEn, intro
 }
 
 
-export function ProjectHeaderTwo({bilde, dato, kunde, rolle, introTekstEn, link, linkText}){
+export function ProjectHeaderTwo({bilde, dato, kunde, rolle, introTekstEn, introTekstTo, link, linkText}){
     return(
         <div className="w-full flex flex-col gap-20 items-center">
                 <div className="w-full lg:w-full lg:h-[80vh] h-[40vh] flex items-center justify-center bg-portfolio-primary-blue  lg:p-24">
@@ -82,6 +82,7 @@ export function ProjectHeaderTwo({bilde, dato, kunde, rolle, introTekstEn, link,
                            <h2>Om prosjektet</h2>
                            <p>{introTekstEn}</p>
                            <br/>
+                           <p>{introTekstTo}</p>
                            <Link target="_blank" href={link}>{linkText}</Link>
                         </div>
                 </div>
