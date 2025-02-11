@@ -14,6 +14,7 @@ import FigmaSirkel from "/public/FigmaSirkel.svg"
 import JsSirkel from "/public/JsSirkel.svg"
 import ReactSirkel from "/public/ReactSirkel.svg"
 import AISirkel from "/public/AISirkel.svg"
+import Vue2 from "/public/Vue2.svg"
 import { OmMegBtn } from "../../components/navigation/buttons";
 import { Programme } from "../../components/home/programmes";
 import Link from "next/link";
@@ -119,6 +120,7 @@ export default function Home() {
                     <Programme image={JsSirkel} title='Javascript'/>
                     <Programme image={ReactSirkel} title='React'/>
                     <Programme image={AISirkel} title='Illustrator'/>
+                    <Programme image={Vue2} title='Vue'/>
                   
                   </div>
              </div>
