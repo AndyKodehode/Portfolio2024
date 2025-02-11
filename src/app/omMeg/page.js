@@ -4,6 +4,7 @@ import Lys from "/public/Lys.svg"
 import Target from "/public/Target.svg"
 import Briller from "/public/Briller.svg"
 import Books from "/public/Books.svg"
+import { AboutIcon } from "../../../components/omComp/iconSection"
 import AnnieSprattReise from "../../../public/AnnieSprattReise.jpg"
 
 
@@ -11,14 +12,14 @@ import AnnieSprattReise from "../../../public/AnnieSprattReise.jpg"
 export default function OmMeg(){
     return(
         
-        <div className="w-full flex flex-col  md:flex-row gap-20 md:items-start lg:items-end justify-end pt-10 relative ">
+        <div className="w-full flex flex-col  md:flex-row gap-20 md:items-start lg:items-end justify-end pt-10 relative lg:h-full  ">
             
-          <div className="lg:h-screen h-3/6 flex justify-center w-full md:w-4/6">
-            <Image className=" lg:w-2/6 w-5/6 lg:p-0 p-4 lg:absolute lg:top-[-70px] lg:left-0 z-20 lg:h-auto object-cover" src={MegSelv}/>
+          <div className="lg:h-full h-3/6 flex justify-center w-full md:w-4/6 z-40">
+            <Image className=" lg:w-2/6 w-5/6 lg:p-0 p-4 lg:absolute lg:top-[-70px] lg:left-0 z-20 lg:h-full object-cover" src={MegSelv}/>
           </div>
             
             <div className="md:w-full w-4/6 w-full flex flex-col md:p-0 px-12  ">
-                    <div className="w-full flex flex-col lg:p-12 gap-7 ">
+                    <div className="w-full flex flex-col lg: pl-12 pr-12 gap-7 ">
                         <div className="flex flex-col gap-3 pb-12 md:pb-0 ">
                             <h1>Hvem er jeg?</h1>
                             <p className="lg:text-[20px] text-[18px] lg:pb-12 md:pb-7  md:p-0 text-left">En rolig mann fra Bergen som brenner for design, kreativitet og utvikling</p>
@@ -37,29 +38,15 @@ export default function OmMeg(){
                             </div>
                         </div>
 
-                        <div className="w-full flex flex-col items-center pt-16  pr-12 gap-12">
+                        <div className="w-full flex flex-col items-center  pr-12  gap-12">
                             <h3>Mine styrker</h3>
                            <div className="w-full flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-evenly items-center gap-12 lg:gap-7">
 
-                                <div className="flex flex-row md:flex-col items-center md:gap-3 gap-7 justify-center w-2/6">
-                                    <Image src={Briller}/>
-                                    <p className="min-w-24 md:text-center">Ser hva andre er gode på</p>
-                                </div>
-
-                                <div className="flex flex-row md:flex-col items-center justify-center md:gap-3 gap-7 w-2/6">
-                                    <Image src={Books}/>
-                                    <p className="min-w-24  md:text-center">Liker å lære nye ting</p>
-                                </div>
-
-                                <div className="flex flex-row md:flex-col items-center justify-center md:gap-3 gap-7 w-2/6">
-                                    <Image src={Lys}/>
-                                    <p className="min-w-24  md:text-center">Kreativ og løsningsorientert</p>
-                                </div>
-
-                                <div className="flex flex-row md:flex-col items-center justify-center md:gap-3 gap-7 w-2/6">
-                                    <Image src={Target}/>
-                                    <p className="min-w-24  md:text-center">Målrettet, liker å se resultater</p>
-                                </div>
+                                 <AboutIcon image={Briller} text="ser hva andre er god på"/>
+                                 <AboutIcon image={Books} text="Liker å lære nye ting"/>
+                                 <AboutIcon image={Lys} text="Kreativ og løsningsorientert"/>
+                                 <AboutIcon image={Target} text="Målrettet, liker å se resultater"/>
+                                 
                            </div>
                         </div>
                     </div>
