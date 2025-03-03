@@ -14,6 +14,7 @@ import FigmaSirkel from "/public/FigmaSirkel.svg"
 import JsSirkel from "/public/JsSirkel.svg"
 import ReactSirkel from "/public/ReactSirkel.svg"
 import AISirkel from "/public/AISirkel.svg"
+import Vue2 from "/public/Vue2.svg"
 import { OmMegBtn } from "../../components/navigation/buttons";
 import { Programme } from "../../components/home/programmes";
 import Link from "next/link";
@@ -113,12 +114,13 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-16">
-                <h1 className="text-center">Programmer jeg kan</h1>
+                <h1 className="text-center">Programmer jeg har erfaring med</h1>
                   <div className="w-full flex flex-wrap lg:flex-row justify-center gap-10">
                     <Programme image={FigmaSirkel} title='Figma' />
                     <Programme image={JsSirkel} title='Javascript'/>
                     <Programme image={ReactSirkel} title='React'/>
                     <Programme image={AISirkel} title='Illustrator'/>
+                    <Programme image={Vue2} title='Vue'/>
                   
                   </div>
              </div>

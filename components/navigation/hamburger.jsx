@@ -28,7 +28,7 @@ const HamburgerMenu = ({ hamFill }) => {
   }, []);
 
   return (
-    <div className="block md:hidden">
+    <div className="block md:hidden ">
       <button
         className="flex items-center justify-center w-10 h-10 transition duration-500 rounded-md top-4 right-4"
         onClick={handleMenuToggle}
@@ -41,7 +41,7 @@ const HamburgerMenu = ({ hamFill }) => {
         />
       </button>
       <div
-        className={`fixed top-0 z-40 right-0 w-full bg-kv-white h-screen transition-transform duration-300 transform ${
+        className={`fixed top-0  right-0 w-full bg-kv-white h-screen transition-transform duration-300 transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
         ref={menuRef}
