@@ -5,6 +5,7 @@ import Colloseum from "/public/Colloseum.jpg"
 import TipCalculator from "/public/TipCalculator.jpg"
 import InnsiktLav from "/public/InnsiktLav.png"
 import Hawii2 from "/public/Hawii2.png"
+import undervisning from "/public/undervisning.jpg"
 import { Carousel } from "../../../components/minReiseComp/carousel"
 
 
@@ -36,6 +37,10 @@ export default function MinReise(){
                     <div className="flex lg:flex-row lg:items-stretch flex-col lg:justify-center lg:items-start items-center lg:gap-24 gap-12 w-full">
                       <YearCard bilde={InnsiktLav} tittel="2022" undertittel="Fontenehuset, app og brukerundersøkelser" tekst="Som et praksisprosjekt i Kodehode begynte jeg på første utgaven for Fontenehus-appen, jeg fikk erfaring med React Native, brukertesting og innsiktsarbeid"/>
                       <YearCard bilde={Hawii2} tittel="2023" undertittel="Kodeverket, teamarbeid og reelle prosjekt" tekst="Her fikk jeg erfaring med å jobbe tett sammen med andre, diskutere design, kode og jobbe ut mot reelle kunder"/>    
+                    </div>
+
+                    <div className="flex lg:flex-row lg:items-stretch flex-col lg:justify-center lg:items-start items-center lg:gap-24 gap-12 w-full">
+                      <YearCard bilde={undervisning} tittel="2024/25" undertittel="Praksis Kodeloftet" tekst="På høsten 2024 startet jeg i praksis som lærer på Kodeloftet hvor jeg underviser i HTML, CSS og grunnleggende Javascript. Kodeloftet er et 3 mnd kurs som blir holdt på Fontenehuset Bergen."/>   
                     </div>
 
                 </div>

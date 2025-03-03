@@ -114,7 +114,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-16">
-                <h1 className="text-center">Programmer jeg kan</h1>
+                <h1 className="text-center">Programmer jeg har erfaring med</h1>
                   <div className="w-full flex flex-wrap lg:flex-row justify-center gap-10">
                     <Programme image={FigmaSirkel} title='Figma' />
                     <Programme image={JsSirkel} title='Javascript'/>
