@@ -10,6 +10,7 @@ module.exports = {
       screens: {
         "2xs": "350px",
         "xs": "425px",
+        "ms" : "500px",
         "3xl": "2600px",
       },
       colors: {
