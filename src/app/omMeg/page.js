@@ -15,12 +15,12 @@ export default function OmMeg(){
         <div className="w-full flex flex-col  md:flex-row gap-20 md:items-start lg:items-end justify-end pt-10  lg:h-full  ">
             
 
-          <div className="lg:h-full h-3/6 flex justify-center w-full md:w-4/6 sm:z-20">
-            <Image className=" lg:w-2/6 w-5/6 lg:p-0 p-4  lg:absolute lg:top-[-24px] lg:left-0  lg:h-[900px] object-cover" src={MegSelv}/>
+          <div className="lg:h-full h-3/6 flex justify-center w-full md:w-4/6 md:z-20">
+            <Image className=" lg:w-2/6  ms:h-[500px] ms:w-4/6 w-5/6 lg:p-0 p-4  lg:absolute lg:top-[-24px] lg:left-0  lg:h-[900px] object-cover" src={MegSelv}/>
 
           </div>
             
-            <div className="md:w-full w-4/6 w-full flex flex-col md:p-0 px-12  ">
+            <div className="w-full md:w-4/6 flex flex-col md:p-0 ms:px-24 p-4  ">
                     <div className="w-full flex flex-col lg: pl-12 pr-12 gap-7 ">
                         <div className="flex flex-col gap-3 pb-12 md:pb-0 ">
                             <h1>Hvem er jeg?</h1>
@@ -40,9 +40,9 @@ export default function OmMeg(){
                             </div>
                         </div>
 
-                        <div className="w-full flex flex-col items-center  pr-12  gap-12">
+                        <div className="w-full hidden lg:flex flex-col items-center  pr-12  gap-12">
                             <h3>Mine styrker</h3>
-                           <div className="w-full flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-evenly items-center gap-12 lg:gap-7">
+                           <div className="w-full flex justify-evenly items-center gap-12 lg:gap-7">
 
                                  <AboutIcon image={Briller} text="ser hva andre er god på"/>
                                  <AboutIcon image={Books} text="Liker å lære nye ting"/>
